@@ -7,7 +7,10 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
+/**
+* have padding and border included in the element's total width and height
+*/
+* { box-sizing: border-box; }
 
 
 /**
@@ -154,15 +157,18 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    // padding-right: $spacing-unit;
+    // padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include media-query-min($desktop-large) {
+      width: 1030px;
+    }
+    @include media-query-max($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;

@@ -18,7 +18,7 @@ $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: #e1e1e1;
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
@@ -26,6 +26,9 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$desktop-large:    1140px;
+$desktop-ex-large: 1340px;
 
 
 
@@ -36,12 +39,16 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
+@mixin media-query-max($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
-
+@mixin media-query-min($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
