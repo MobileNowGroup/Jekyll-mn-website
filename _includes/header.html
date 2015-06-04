@@ -3,7 +3,7 @@
   <div class="wrapper header-wrapper">
 
     <div class="site-title">
-      <a href="{{ site.baseurl }}/">
+      <a href="{{ site.url }}/">
         <img src="http://www.mobilenowgroup.com/wp-content/uploads/2013/07/logo.png" alt="Mobile Now Group">
       </a>
     </div>
@@ -17,14 +17,38 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">Home</a>
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">Work</a>
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">About us</a>
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">Services</a>
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">News</a>
-        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">Contact us</a>
-      </div>
+      <ul class="trigger page-links">
+        <li{% if page.url == "/index.html" %} class="active"{% endif %}>
+          <a class="page-link" href="{{ site.url }}">Home
+            <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
+          </a>
+        </li>
+        <li{% if page.url == "/work/index.html" %} class="active"{% endif %}>
+          <a class="page-link" href="{{ site.url }}/work/">Work
+            <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
+          </a>
+        </li>
+        <li{% if page.url == "/about-us/index.html" %} class="active"{% endif %}>
+          <a class="page-link" href="{{ site.url }}/about-us/">About us
+            <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
+          </a>
+        </li>
+        <li{% if page.url == "/services/index.html" %} class="active"{% endif %}>
+          <a class="page-link" href="{{ site.url }}/services/">Services
+            <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
+          </a>
+        </li>
+        <li{% if page.url == "/news/index.html" %} class="active"{% endif %}>
+          <a class="page-link" href="{{ site.url }}/news/">News
+            <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
+          </a>
+        </li>
+        <li{% if page.url == "/contact-us/index.html" %} class="active"{% endif %}>
+          <a class="page-link" href="{{ site.url }}/contact-us/">Contact us
+            <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
+          </a>
+        </li>
+      </ul>
     </nav>
 
   </div>

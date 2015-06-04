@@ -30,6 +30,11 @@
     }
 }
 
+@mixin mn-transform($var){
+    -webkit-transform: $var;
+            transform: $var;
+}
+
 @include embed-font("cholla-slab", "ChollaSlabRegular");
 
 
@@ -42,7 +47,8 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #919191;
-$background-color: #fdfdfd;
+$text-active-color:#666666;
+$background-color: #ffffff;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
