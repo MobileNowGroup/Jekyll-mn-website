@@ -82,7 +82,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 600;
 }
 
 
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $brand-color-dark;
     text-decoration: none;
 
     &:visited {
@@ -99,7 +99,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
+        // color: $text-color;
         text-decoration: underline;
     }
 }
@@ -207,4 +207,20 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * Text align
+ */
+.text-center { text-align: center; }
+
+
+/**
+ * Grids
+ */
+.col-one-third {
+    float: left;
+    margin-left: 6%;
+    width: 29.333333333333332%;
+    &.first { margin-left: 0; }
 }
