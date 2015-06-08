@@ -35,6 +35,11 @@
             transform: $var;
 }
 
+@mixin mn-transition($var){
+    -webkit-transition: $var;
+            transition: $var;
+}
+
 @include embed-font("cholla-slab", "ChollaSlabRegular");
 
 

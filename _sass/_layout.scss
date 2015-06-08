@@ -5,10 +5,9 @@
     position: fixed;
     border-top: 1px solid $grey-color-light;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
     width: 100%;
     z-index: 400;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.95);
 
     @include media-query-max($on-palm) {
         // Positioning context for the mobile navigation icon
@@ -250,6 +249,35 @@ ul.page-links {
     img {
         margin-right: 20px;
         vertical-align: text-bottom;
+    }
+}
+
+#go-top-button {
+    position: fixed;
+    right: $spacing-unit;
+    bottom: $spacing-unit;
+    width: $spacing-unit;
+    height: $spacing-unit;
+    line-height: $spacing-unit;
+    font-family: "entypo-fontello";
+    text-decoration: none;
+    z-index: 10000;
+    background-color: white;
+    color: $text-color-dark;
+    border:1px solid $grey-color-light;
+    border-radius: 2px;
+    opacity: 0;
+    visibility: hidden;
+    @include mn-transition(all 0.3s ease-out);
+
+    &:hover {
+        color: $brand-color-dark;
+        background-color: #f8f8f8;
+    }
+
+    &.show-gotop {
+        opacity: 0.7;
+        visibility: visible;
     }
 }
 
