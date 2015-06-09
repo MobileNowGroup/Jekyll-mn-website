@@ -157,12 +157,9 @@ pre {
  */
 .wrapper {
     position: relative;
-    // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    width: 910px;
     margin-right: auto;
     margin-left: auto;
-    // padding-right: $spacing-unit;
-    // padding-left: $spacing-unit;
     @extend %clearfix;
 
     @include media-query-min($desktop-large) {
@@ -175,8 +172,11 @@ pre {
         // padding-left: $spacing-unit / 2;
         width: 268px;
     }
-    @media only screen and (max-width: 767px) and (min-width: 480px) {
+    @media only screen and (max-width: 767px) and (min-width: 480px) { // mobile landscape
         width: 428px;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 989px) { // tablet portrait
+        width: 682px;
     }
 }
 
