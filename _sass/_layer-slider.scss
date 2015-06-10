@@ -1,0 +1,43 @@
+/* Global settings */
+
+.ls-container {
+    visibility: hidden;
+    position: relative;
+
+    & * {
+        box-sizing: content-box !important;
+    }
+}
+
+.ls-inner {
+    position: relative;
+    background-position: center center;
+    z-index: 2;
+}
+
+.ls-layer {
+    position: absolute;
+    display: none;
+    background-position: center center;
+    overflow: hidden;
+
+    & > * { position: absolute; }
+
+    .ls-bg {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+.ls-active {
+    display: block !important;
+}
+
+.ls-link {
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    left: 0px !important;
+    top: 0px !important;
+    background-image: url("../assets/images/blank.gif");
+}
