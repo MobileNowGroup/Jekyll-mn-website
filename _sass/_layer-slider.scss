@@ -1,66 +1,27 @@
-/* Global settings */
-
-.ls-container {
-    visibility: hidden;
-    position: relative;
-
-    & * {
-        box-sizing: content-box !important;
-    }
-}
-
-.ls-inner {
-    position: relative;
-    background-position: center center;
-    z-index: 2;
-}
-
-.ls-layer {
-    position: absolute;
-    display: none;
-    background-position: center center;
-    overflow: hidden;
-
-    & > * { position: absolute; }
-
-    .ls-bg {
-        top: 50%;
-        left: 50%;
-    }
-}
-
-.ls-active {
-    display: block !important;
-}
-
-.ls-link {
-    position: absolute;
-    width: 100% !important;
-    height: 100% !important;
-    left: 0px !important;
-    top: 0px !important;
-    background-image: url("../assets/images/blank.gif");
-}
-
+/**
+* Customize layer slider nav-link style
+*/
 .ls-nav-prev, .ls-nav-next {
     background-image: none !important;
     width: 60px !important;
     height: 60px !important;
     margin: -30px 15px 0;
-    left: 30px;
     font-family: "entypo-fontello";
     font-size: 25px;
     color: white;
     visibility: hidden;
     opacity: 0.5;
 }
+.ls-nav-prev { left: 30px !important; }
 .ls-nav-next {
     left: auto;
     right: 30px !important;
 }
+
 .ls-nav-prev:hover, .ls-nav-next:hover {
     opacity:1;
 }
+
 .ls-nav-prev::before, .ls-nav-next::before {
     visibility: visible;
     position: absolute;
