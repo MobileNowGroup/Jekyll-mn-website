@@ -3,8 +3,8 @@
   <div class="wrapper header-wrapper" id="fixed-site-header">
 
     <div class="site-title">
-      <a href="{{ site.url | site.baseurl }}/">
-        <img src="{{ site.url | site.baseurl }}/assets/images/logo.png" alt="Mobile Now Group">
+      <a href="{{ site.url }}{{ site.baseurl }}/">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/logo.png" alt="Mobile Now Group">
       </a>
     </div>
 
@@ -14,32 +14,32 @@
       <a href="#" class="hide-menu-icon text-center">✖</a>
       <ul class="page-links" id="page-links">
         <li{% if page.url == "/index.html" %} class="active"{% endif %}>
-          <a class="page-link" href="{{ site.url | site.baseurl }}">Home
+          <a class="page-link" href="{{ site.url }}{{ site.baseurl }}">Home
             <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
           </a>
         </li>
         <li{% if page.url == "/work/index.html" %} class="active"{% endif %}>
-          <a class="page-link" href="{{ site.url | site.baseurl }}/work/">Work
+          <a class="page-link" href="{{ site.url }}{{ site.baseurl }}/work/">Work
             <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
           </a>
         </li>
         <li{% if page.url == "/about-us/index.html" %} class="active"{% endif %}>
-          <a class="page-link" href="{{ site.url | site.baseurl }}/about-us/">About us
+          <a class="page-link" href="{{ site.url }}{{ site.baseurl }}/about-us/">About us
             <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
           </a>
         </li>
         <li{% if page.url == "/services/index.html" %} class="active"{% endif %}>
-          <a class="page-link" href="{{ site.url | site.baseurl }}/services/">Services
+          <a class="page-link" href="{{ site.url }}{{ site.baseurl }}/services/">Services
             <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
           </a>
         </li>
         <li{% if page.url == "/news/index.html" %} class="active"{% endif %}>
-          <a class="page-link" href="{{ site.url | site.baseurl }}/news/">News
+          <a class="page-link" href="{{ site.url }}{{ site.baseurl }}/news/">News
             <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
           </a>
         </li>
         <li{% if page.url == "/contact-us/index.html" %} class="active"{% endif %}>
-          <a class="page-link" href="{{ site.url | site.baseurl }}/contact-us/">Contact us
+          <a class="page-link" href="{{ site.url }}{{ site.baseurl }}/contact-us/">Contact us
             <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
           </a>
         </li>
