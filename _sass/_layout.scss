@@ -310,7 +310,9 @@ ul.page-links {
  * Page content
  */
 .page-content {
-    padding-top: 88px;
+    @include media-query-min($on-laptop) {
+      padding-top: 88px;
+    }
 }
 
 .page-heading {

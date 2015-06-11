@@ -3,7 +3,7 @@ title: Your awesome title
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Full service mobile! Excellent branded apps, games and responsive websites.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/jekyll-mn-website" # the subpath of your site, e.g. /blog/
 url: "http://127.0.0.1:4000" # "http://www.mobilenowgroup.com"
 twitter_username: jekyllrb
 github_username:  jekyll
