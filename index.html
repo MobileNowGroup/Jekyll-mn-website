@@ -132,7 +132,25 @@ title: Mobile Now Group | Full Service Mobile Agency in Shanghai and Singapore
 
   <p class="content-p text-center">Excellent branded apps, games and responsive websites</p>
 
-  <div class="grid-sort-container">
+  <div class="grid-sort-container no_margin-container isotope" data-portfolio-id="1">
+
+    {% assign projects = site.projects | sort: 'order' %}
+    {% for project in projects %}
+
+    <div class="item grid-entry no_margin col-one-third"><div class="inner-entry">
+      <a href="{{ project.link }}" class="grid-image">
+        <img src="{{ project.image }}" width="495" height="400" alt="{{ project.title }}">
+      </a>
+      <div class="grid-content">
+        <div class="avia-arrow"></div>
+        <div class="grid-entry-excerpt">
+          <span class="target-device {{ project.support }}"></span>{{ project.title }}
+        </div>
+      </div>
+    </div></div>
+
+    {% endfor %}
+
   </div>
 </div>
 

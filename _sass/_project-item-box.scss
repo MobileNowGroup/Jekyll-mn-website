@@ -1,0 +1,61 @@
+.grid-sort-container {
+  @extend %clearfix;
+}
+
+.grid-entry {
+    float: left;
+
+    .inner-entry {
+        margin-right: 1px;
+        box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.grid-image {
+    display: block;
+    width: 100%;
+
+    img { height: auto; }
+}
+
+.grid-content {
+    padding: 16px;
+    position: relative;
+
+    .avia-arrow {
+        top: -4px;
+        background-color: white;
+    }
+}
+
+.target-device {
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  background-repeat: none;
+  background-color: none;
+  background-position: 0 0;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.target-device.ios {
+  // background-image: url("../images/custom/apple.png");
+}
+
+.target-device.android {
+  // background-image: url(../images/custom/android.png);
+}
+
+.target-device.universal {
+  background-image: url("../assets/images/apple_plus_android.png");
+  width: 48px;
+}
+
+.target-device.html5 {
+  background-image: url("../assets/images/web5.png");
+}
+
+.target-device.wechat {
+  background-image: url("../assets/images/wechat.png");
+}
