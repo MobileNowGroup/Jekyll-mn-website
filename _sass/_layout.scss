@@ -208,14 +208,14 @@ ul.page-links {
     }
 }
 
-.above-contact-us {
+.photo-breaker {
     width: 100%;
     height: 390px;
-    background-image: url("../assets/images/2013_09_03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
+.above-contact-us { background-image: url("../assets/images/2013/09/03.jpg"); }
 
 .office-info {
     border-top: 1px solid $grey-color-light;

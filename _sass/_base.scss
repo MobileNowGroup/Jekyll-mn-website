@@ -249,3 +249,25 @@ pre {
     margin-left: 0;
     width: 33.3%;
 }
+
+
+/**
+* Button, link
+*/
+.mn-button {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    padding: 10px 16px;
+    color: $brand-color-dark;
+    font-weight: 600;
+    line-height: 16px;
+}
+a.mn-button:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #96358c; // this equals to rgb(150, 53, 140)
+    border-color: #96358c;
+}
+.mn-button-wrapper { padding-top: 25px; }
