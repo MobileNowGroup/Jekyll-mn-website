@@ -14,13 +14,50 @@
 .grid-image {
     display: block;
     width: 100%;
+    position: relative;
 
     img { height: auto; }
+
+    span.image-overlay {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+
+        &::before {
+            content:"\27A6";
+            color: white;
+            background-color: $brand-color-dark;
+            font-family: "entypo-fontello";
+            font-size: 18px;
+            position: absolute;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            top: 50%;
+            left: 50%;
+            margin-top: -40px;
+            margin-left: -40px;
+            text-align: center;
+            @include mn-transform(rotate(-45deg) scale(0.9));
+            @include mn-transition((transform 0.4s ease-out, opacity 0.5s ease-out));
+        }
+    }
+
+    &:hover span.image-overlay {
+        opacity: 0.7;
+        &::before { @include mn-transform(rotate(0deg) scale(1)); }
+    }
 }
 
 .grid-content {
-    padding: 16px;
     position: relative;
+    margin-bottom: 1px;
+    padding: 16px;
 
     .avia-arrow {
         top: -4px;
@@ -28,34 +65,33 @@
     }
 }
 
+.grid-entry-excerpt { font-weight: bold; }
+
 .target-device {
-  display: inline-block;
-  height: 26px;
-  width: 26px;
-  background-repeat: none;
-  background-color: none;
-  background-position: 0 0;
-  margin-right: 10px;
-  vertical-align: middle;
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+    vertical-align: bottom;
 }
 
 .target-device.ios {
-  // background-image: url("../images/custom/apple.png");
+    background: url("../assets/images/support_icons.png") -126px top no-repeat;
 }
 
 .target-device.android {
-  // background-image: url(../images/custom/android.png);
+    background: url("../assets/images/support_icons.png") -26px top no-repeat;
 }
 
 .target-device.universal {
-  background-image: url("../assets/images/apple_plus_android.png");
-  width: 48px;
+    background: url("../assets/images/support_icons.png") -52px top no-repeat;
+    width: 48px;
 }
 
 .target-device.html5 {
-  background-image: url("../assets/images/web5.png");
+    background: url("../assets/images/support_icons.png") 0px top no-repeat;
 }
 
 .target-device.wechat {
-  background-image: url("../assets/images/wechat.png");
+    background: url("../assets/images/support_icons.png") -100px top no-repeat;
 }
