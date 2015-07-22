@@ -30,12 +30,12 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
+// h1, h2, h3, h4, h5, h6,
+// p, blockquote, pre,
+// ul, ol, dl, figure,
+// %vertical-rhythm {
+//     margin-bottom: $spacing-unit / 2;
+// }
 
 
 
@@ -84,7 +84,10 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
-
+h3 {
+    font-size: 19px;
+    color: $header-color;
+}
 
 
 /**
@@ -250,6 +253,7 @@ pre {
     width: 33.3%;
 }
 
+.column-top-margin { margin-top: 50px; }
 
 /**
 * Button, link

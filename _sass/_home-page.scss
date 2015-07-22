@@ -2,3 +2,32 @@
     height: 460px;
     background-image: url("../assets/images/2013/07/11.jpg");
 }
+
+.service-icon {
+    display: block;
+    width: 132px;
+    height: 132px;
+    margin: 20px auto;
+}
+.service-icon.mobile-consultancy {
+    background: url("../assets/images/service_icons.png") -660px top no-repeat;
+}
+.service-icon.ux-design {
+    background: url("../assets/images/service_icons.png") -528px top no-repeat;
+}
+.service-icon.ui-design {
+    background: url("../assets/images/service_icons.png") -264px top no-repeat;
+}
+.service-icon.game-concept-production {
+    background: url("../assets/images/service_icons.png") 0px top no-repeat;
+}
+.service-icon.development-build {
+    background: url("../assets/images/service_icons.png") -132px top no-repeat;
+}
+.service-icon.app-publishing-marketing {
+    background: url("../assets/images/service_icons.png") -396px top no-repeat;
+}
+.btn-read-more-wrapper {
+    clear: both;
+    padding-top: 40px;
+}

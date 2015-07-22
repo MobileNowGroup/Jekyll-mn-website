@@ -53,6 +53,7 @@ $spacing-unit:     50px;
 
 $text-color:       #919191;
 $text-color-dark:  #666666;
+$header-color:     #222222;
 $background-color: #ffffff;
 $brand-color:      #97348c;
 $brand-color-dark: #8718a0;
@@ -75,7 +76,6 @@ $desktop-ex-large: 1340px;
 @import
         "base",
         "layout",
-        "syntax-highlighting",
         "layer-slider",
         "project-item-box",
         "home-page"
