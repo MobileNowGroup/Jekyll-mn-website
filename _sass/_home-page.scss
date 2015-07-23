@@ -1,33 +1,90 @@
+/**
+ * Services
+ */
 .above-services {
-    height: 460px;
-    background-image: url("../assets/images/2013/07/11.jpg");
-}
-.above-client-word {
-    height: 460px;
-    background-image: url("../assets/images/2013/07/pic-62.png");
+  height: 460px;
+  background-image: url("../assets/images/2013/07/11.jpg");
 }
 
 .service-icon {
-    display: block;
-    width: 132px;
-    height: 132px;
-    margin: 20px auto;
+  display: block;
+  width: 132px;
+  height: 132px;
+  margin: 20px auto;
 }
 .service-icon.mobile-consultancy {
-    background: url("../assets/images/service_icons.png") -660px top no-repeat;
+  background: url("../assets/images/service_icons.png") -660px top no-repeat;
 }
 .service-icon.ux-design {
-    background: url("../assets/images/service_icons.png") -528px top no-repeat;
+  background: url("../assets/images/service_icons.png") -528px top no-repeat;
 }
 .service-icon.ui-design {
-    background: url("../assets/images/service_icons.png") -264px top no-repeat;
+  background: url("../assets/images/service_icons.png") -264px top no-repeat;
 }
 .service-icon.game-concept-production {
-    background: url("../assets/images/service_icons.png") 0px top no-repeat;
+  background: url("../assets/images/service_icons.png") 0px top no-repeat;
 }
 .service-icon.development-build {
-    background: url("../assets/images/service_icons.png") -132px top no-repeat;
+  background: url("../assets/images/service_icons.png") -132px top no-repeat;
 }
 .service-icon.app-publishing-marketing {
-    background: url("../assets/images/service_icons.png") -396px top no-repeat;
+  background: url("../assets/images/service_icons.png") -396px top no-repeat;
+}
+
+
+/**
+ * Client word
+ */
+.above-client-word {
+  height: 460px;
+  background-image: url("../assets/images/2013/07/pic-62.png");
+}
+
+.testimonial-wrapper {
+  display: table;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.testimonial-row {
+  display: table-row;
+
+  &:last-child .testimonial { border-bottom: none; }
+}
+
+.testimonial {
+  display: table-cell;
+  padding: 20px;
+  border-right: 1px dashed $grey-color-light;
+  border-bottom: 1px dashed $grey-color-light;
+
+  &.last { border-right: none; }
+}
+
+.testimonial-image {
+  float: left;
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+
+  img { border-radius: 50%; }
+}
+
+.testimonial-content {
+  color: $text-color-dark;
+  overflow: hidden;
+
+  p {
+    margin-bottom: 0.85em;
+    line-height: 1.65em;
+  }
+}
+
+.testimonial-meta {
+  margin-left: 100px;
+
+  strong {
+    display: block;
+    color: $header-color;
+  }
 }
