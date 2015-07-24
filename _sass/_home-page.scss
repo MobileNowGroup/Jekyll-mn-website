@@ -67,7 +67,27 @@
   width: 80px;
   height: 80px;
 
+  opacity: 0.2;
+  @include mn-transform(scale(0.5));
+
   img { border-radius: 50%; }
+}
+
+/*pop up animation*/
+@-webkit-keyframes avia_appear {
+  0%   { -webkit-transform: scale(0.5); opacity: 0.1; }
+  100% { -webkit-transform: scale(1); opacity: 1; }
+}
+@keyframes avia_appear {
+  0%   { transform: scale(0.5); opacity: 0.1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.testimonial-wrapper.start_animation .testimonial-image {
+  -webkit-animation: avia_appear 1s 1;
+  animation: avia_appear 1s 1;
+  opacity: 1;
+  @include mn-transform(scale(1));
 }
 
 .testimonial-content {

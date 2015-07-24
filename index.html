@@ -230,7 +230,25 @@ title: Mobile Now Group | Full Service Mobile Agency in Shanghai and Singapore
 
 <div class="wrapper content">
   <h2 class="content-h2 with-bottom-line"><img alt="Clients" src="{{ site.url }}{{ site.baseurl }}/assets/images/Clients.png" width="38" height="38">A word from our clients</h2>
-  <div class="testimonial-wrapper">
+  <script type="text/javascript">
+    /*
+    * Waypoints - 3.1.1
+    * Copyright (c) 2011-2014 Caleb Troughton. Licensed under the MIT license.
+    * https://github.com/imakewebthings/waypoints
+    */
+    window.onload = function() {
+      var waypoint = new Waypoint({
+        element: document.getElementById("testimobial-waypoint"),
+        handler: function(direction) {
+          $(this.element).addClass("start_animation")
+          // Triggered once, now destroyed
+          this.destroy()
+        },
+        offset: "100"
+      })
+    }
+  </script>
+  <div class="testimonial-wrapper" id="testimobial-waypoint">
     <div class="testimonial-row">
       <div class="testimonial col-one-half">
         <div class="testimonial-image">
