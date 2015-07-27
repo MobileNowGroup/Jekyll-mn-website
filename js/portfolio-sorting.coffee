@@ -44,13 +44,7 @@ $.fn.avia_iso_sort = ->
 
   return this.each ->
     container = $(this)
-    # portfolio_id = container.data("portfolio-id")
-    # parentContainer	= container.parents(".entry-content")
-    # filter = parentContainer.find('.sort_width_container[data-portfolio-id="' + portfolio_id + '"]').find("#js_sort_items").css({visibility: "visible", opacity: 0})
     links = $("#js_sort_item").find("a")
-    # imgParent = container.find(".grid-image")
-    # isoActive = false
-    # items = $(".post-entry", container)
 
     applyIso = ->
       container.isotope(
@@ -61,11 +55,6 @@ $.fn.avia_iso_sort = ->
           container.css
             overflow: "visible"
       )
-
-      # isoActive = true
-      setTimeout ->
-        parentContainer.addClass "avia_sortable_active"
-      , 0
 
     # filtering projects on Work page
     links.on "click", ->

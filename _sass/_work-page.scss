@@ -4,7 +4,6 @@
 }
 
 .sort-filter-container {
-  margin-top: 20px;
   margin-bottom: 30px;
 
   a {
@@ -20,4 +19,24 @@
     padding-left: 3px;
     padding-right: 3px;
   }
+}
+
+/*
+* add transition effect on isotope filtering
+*/
+.sortable_active .isotope, .sortable_active .isotope .isotope-item {
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+.sortable_active .isotope {
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+  -webkit-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.sortable_active .isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+          transition-property:         transform, opacity;
 }
