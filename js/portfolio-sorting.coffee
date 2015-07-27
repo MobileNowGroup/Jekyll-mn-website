@@ -34,7 +34,7 @@ $.fn.avia_iso_sort = ->
         instance._pushPosition( $this, props.x, props.y )
         props.height = Math.max( props.y + atomH, props.height )
         props.x += atomW + margin
-    
+
     _customModeGetContainerSize: ->
       return { height : this.fitRows.height }
 
@@ -44,13 +44,13 @@ $.fn.avia_iso_sort = ->
 
   return this.each ->
     container = $(this)
-    portfolio_id = container.data("portfolio-id")
-    parentContainer	= container.parents(".entry-content")
-    filter = parentContainer.find('.sort_width_container[data-portfolio-id="' + portfolio_id + '"]').find("#js_sort_items").css({visibility: "visible", opacity: 0})
-    links = filter.find("a")
-    imgParent = container.find(".grid-image")
+    # portfolio_id = container.data("portfolio-id")
+    # parentContainer	= container.parents(".entry-content")
+    # filter = parentContainer.find('.sort_width_container[data-portfolio-id="' + portfolio_id + '"]').find("#js_sort_items").css({visibility: "visible", opacity: 0})
+    links = $("#js_sort_item").find("a")
+    # imgParent = container.find(".grid-image")
     # isoActive = false
-    items = $(".post-entry", container)
+    # items = $(".post-entry", container)
 
     applyIso = ->
       container.isotope(
@@ -74,7 +74,6 @@ $.fn.avia_iso_sort = ->
       links.removeClass "active_sort"
       current.addClass "active_sort"
 
-      parentContainer.find(".open_container .ajax_controlls .avia_close").trigger("click")				
       container.isotope(
         layoutMode: "customMode"
         itemSelector: ".item"

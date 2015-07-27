@@ -1,0 +1,23 @@
+.work-content {
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.sort-filter-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+  }
+  a:hover, a.active_sort {
+    color: $brand-color-dark;
+  }
+
+  .text-sep {
+  	font-size: 12px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}

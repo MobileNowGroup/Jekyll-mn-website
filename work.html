@@ -1,0 +1,52 @@
+---
+layout: default
+title: Mobile Now Group | Work - Mobile Now Group
+permalink: /work/
+---
+<div class="wrapper work-content">
+  <div class="sort-filter-container" id="js_sort_item">
+    <a href="#" data-filter="all_sort" class="active_sort">All</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="automotive_sort">Automotive</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="b2b_sort">B2B</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="fb_sort">F&amp;B</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="finance_sort">Finance</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="games_sort">Gaming</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="healthcare_sort">Healthcare</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="lifestyle_sort">Lifestyle</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="media_sort">Media</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="retail_sort">Retail</a>
+    <span class="text-sep">/</span>
+    <a href="#" data-filter="travel_sort">Travel</a>
+  </div>
+
+  <div class="grid-sort-container no_margin-container isotope">
+
+    {% assign projects = site.projects | sort: 'order' %}
+    {% for project in projects %}
+
+    <div class="item grid-entry no_margin col-one-third all_sort {{ project.category }}"><div class="inner-entry">
+      <a href="{{ project.link }}" class="grid-image">
+        <img src="../{{ project.image }}" width="495" height="400" alt="{{ project.title }}">
+        <span class="image-overlay"></span>
+      </a>
+      <div class="grid-content">
+        <div class="avia-arrow"></div>
+        <div class="grid-entry-excerpt">
+          <span class="target-device {{ project.support }}"></span>{{ project.title }}
+        </div>
+      </div>
+    </div></div>
+
+    {% endfor %}
+
+  </div>
+</div>
