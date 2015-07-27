@@ -33,7 +33,7 @@ permalink: /work/
     {% assign projects = site.projects | sort: 'order' %}
     {% for project in projects %}
 
-    <div class="item grid-entry no_margin col-one-third all_sort {{ project.category }}"><div class="inner-entry">
+    <div class="item grid-entry no_margin col-one-third flex_column all_sort {{ project.category }}"><div class="inner-entry">
       <a href="{{ project.link }}" class="grid-image">
         <img src="../{{ project.image }}" width="495" height="400" alt="{{ project.title }}">
         <span class="image-overlay"></span>
