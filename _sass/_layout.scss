@@ -31,10 +31,7 @@
 }
 
 .site-title {
-    font-size: 26px;
     height: 100%;
-    letter-spacing: -1px;
-    margin-bottom: 0;
     float: left;
 
     a {
@@ -59,7 +56,6 @@ ul.page-links {
     li:hover, li.active {
         a.page-link {
             color: $text-color-dark;
-            font-weight: 600;
         }
         .avia-underline {
             opacity: 1;
@@ -72,6 +68,7 @@ ul.page-links {
         display: block;
         position: relative;
         color: $text-color;
+        font-weight: 600;
         text-decoration: none;
         padding-left: 13px;
         padding-right: 13px;
