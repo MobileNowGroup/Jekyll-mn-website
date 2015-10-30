@@ -19,4 +19,11 @@
 
 .col-one-half { width: 50%; }
 
+.av_one_half {
+  float: left;
+  margin-left: 6%;
+  width: 47%;
+  &.first { margin-left: 0; }
+}
+
 .column-top-margin { margin-top: 50px; }
