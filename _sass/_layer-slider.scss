@@ -2,43 +2,43 @@
 * Customize layer slider nav-link style
 */
 .ls-nav-prev, .ls-nav-next {
-    background-image: none !important;
-    width: 60px !important;
-    height: 60px !important;
-    margin: -30px 15px 0;
-    font-family: "entypo-fontello";
-    font-size: 25px;
-    color: white;
-    visibility: hidden;
-    opacity: 0.5;
+  background-image: none !important;
+  width: 60px !important;
+  height: 60px !important;
+  margin: -30px 15px 0;
+  font-family: "entypo-fontello";
+  font-size: 25px;
+  color: white;
+  visibility: hidden;
+  opacity: 0.5;
 }
 .ls-nav-prev { left: 30px !important; }
 .ls-nav-next {
-    left: auto;
-    right: 30px !important;
+  left: auto;
+  right: 30px !important;
 }
 
 .ls-nav-prev:hover, .ls-nav-next:hover {
-    opacity:1;
+  opacity:1;
 }
 
 .ls-nav-prev::before, .ls-nav-next::before {
-    visibility: visible;
-    position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    z-index: 100;
-    background: rgba(0,0,0,0.3);
-    border-radius: 3px;
-    text-align: center;
-    line-height: 62px;
+  visibility: visible;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  z-index: 100;
+  background: rgba(0,0,0,0.3);
+  border-radius: 3px;
+  text-align: center;
+  line-height: 62px;
 }
 .ls-nav-prev::before{
-    content: "\E765";
-    text-indent: -4px;
+  content: "\E765";
+  text-indent: -4px;
 }
 .ls-nav-next::before{
-    content: "\E766";
+  content: "\E766";
 }

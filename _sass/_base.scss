@@ -4,8 +4,8 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 /**
 * have padding and border included in the element's total width and height
@@ -17,13 +17,13 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: normal;
-    color: $text-color;
-    background-color: $background-color;
-    -webkit-text-size-adjust: 100%;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: normal;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
 }
 
 
@@ -43,8 +43,8 @@ body {
  * Images
  */
 img {
-    max-width: 100%;
-    vertical-align: middle;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 
@@ -52,13 +52,13 @@ img {
 /**
  * Figures
  */
-figure > img {
-    display: block;
-}
+// figure > img {
+//   display: block;
+// }
 
-figcaption {
-    font-size: $small-font-size;
-}
+// figcaption {
+//   font-size: $small-font-size;
+// }
 
 
 
@@ -66,14 +66,14 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+  margin-left: $spacing-unit;
 }
 
 li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  > ul,
+  > ol {
+     margin-bottom: 0;
+  }
 }
 
 
@@ -82,11 +82,11 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
+  font-weight: 600;
 }
 h3 {
-    font-size: 19px;
-    color: $header-color;
+  font-size: 19px;
+  color: $header-color;
 }
 
 
@@ -94,17 +94,17 @@ h3 {
  * Links
  */
 a {
-    color: $brand-color-dark;
-    text-decoration: none;
+  color: $brand-color-dark;
+  text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
 
-    &:hover {
-        // color: $text-color;
-        text-decoration: underline;
-    }
+  &:hover {
+    // color: $text-color;
+    text-decoration: underline;
+  }
 }
 
 
@@ -112,46 +112,46 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+// blockquote {
+//   color: $grey-color;
+//   border-left: 4px solid $grey-color-light;
+//   padding-left: $spacing-unit / 2;
+//   font-size: 18px;
+//   letter-spacing: -1px;
+//   font-style: italic;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
+//   > :last-child {
+//     margin-bottom: 0;
+//   }
+// }
 
 
 
 /**
  * Code formatting
  */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
+// pre,
+// code {
+//   font-size: 15px;
+//   border: 1px solid $grey-color-light;
+//   border-radius: 3px;
+//   background-color: #eef;
+// }
 
-code {
-    padding: 1px 5px;
-}
+// code {
+//   padding: 1px 5px;
+// }
 
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
+// pre {
+//   padding: 8px 12px;
+//   overflow-x: scroll;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
+//   > code {
+//     border: 0;
+//     padding-right: 0;
+//     padding-left: 0;
+//   }
+// }
 
 
 
@@ -159,28 +159,28 @@ pre {
  * Wrapper
  */
 .wrapper {
-    position: relative;
-    width: 910px;
-    margin-right: auto;
-    margin-left: auto;
-    @extend %clearfix;
+  position: relative;
+  width: 910px;
+  margin-right: auto;
+  margin-left: auto;
+  @extend %clearfix;
 
-    @include media-query-min($desktop-large) {
-      width: 1030px;
-    }
-    @include media-query-max($on-mobile) {
-        // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        // max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        // padding-right: $spacing-unit / 2;
-        // padding-left: $spacing-unit / 2;
-        width: 268px;
-    }
-    @media only screen and (max-width: 767px) and (min-width: 480px) { // mobile landscape
-        width: 428px;
-    }
-    @media only screen and (min-width: 768px) and (max-width: 989px) { // tablet portrait
-        width: 682px;
-    }
+  @include media-query-min($desktop-large) {
+    width: 1030px;
+  }
+  @include media-query-max($on-mobile) {
+    // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    // max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    // padding-right: $spacing-unit / 2;
+    // padding-left: $spacing-unit / 2;
+    width: 268px;
+  }
+  @media only screen and (max-width: 767px) and (min-width: 480px) { // mobile landscape
+    width: 428px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 989px) { // tablet portrait
+    width: 682px;
+  }
 }
 
 
@@ -190,11 +190,11 @@ pre {
  */
 %clearfix {
 
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 
@@ -202,19 +202,19 @@ pre {
 /**
  * Icons
  */
-.icon {
+// .icon {
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+//     > svg {
+//         display: inline-block;
+//         width: 16px;
+//         height: 16px;
+//         vertical-align: middle;
 
-        path {
-            fill: $grey-color;
-        }
-    }
-}
+//         path {
+//             fill: $grey-color;
+//         }
+//     }
+// }
 
 
 /**
@@ -227,9 +227,9 @@ pre {
  * Image align
  */
 .img-align-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -237,14 +237,14 @@ pre {
  * Grids
  */
 .col-one-third {
-    float: left;
-    margin-left: 6%;
-    width: 29.333333333333332%;
-    &.first { margin-left: 0; }
+  float: left;
+  margin-left: 6%;
+  width: 29.333333333333332%;
+  &.first { margin-left: 0; }
 }
 .no_margin.col-one-third {
-    margin-left: 0;
-    width: 33.3%;
+  margin-left: 0;
+  width: 33.3%;
 }
 
 .flex_column {
@@ -259,27 +259,41 @@ pre {
 
 .column-top-margin { margin-top: 50px; }
 
+
 /**
 * Button, link
 */
 .btn-read-more-wrapper {
-    clear: both;
-    padding-top: 40px;
-    padding-bottom: 20px;
+  clear: both;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 .mn-button {
-    display: inline-block;
-    background-color: white;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    padding: 10px 16px;
-    color: $brand-color-dark;
-    font-weight: 600;
-    line-height: 16px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  padding: 10px 16px;
+  color: $brand-color-dark;
+  font-weight: 600;
+  line-height: 16px;
 }
 a.mn-button:hover {
-    text-decoration: none;
-    color: white;
-    background-color: #96358c; // this equals to rgb(150, 53, 140)
-    border-color: #96358c;
+  text-decoration: none;
+  color: white;
+  background-color: #96358c; // this equals to rgb(150, 53, 140)
+  border-color: #96358c;
+}
+
+
+/**
+* Make the selected text
+*/
+::-moz-selection {
+  color: white;
+  background-color: $brand-color-dark;
+}
+::selection {
+  color: white;
+  background-color: $brand-color-dark;
 }
