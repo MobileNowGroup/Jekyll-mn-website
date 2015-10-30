@@ -1,0 +1,22 @@
+.col-one-third {
+  float: left;
+  margin-left: 6%;
+  width: 29.333333333333332%;
+  &.first { margin-left: 0; }
+}
+.no_margin.col-one-third {
+  margin-left: 0;
+  width: 33.3%;
+}
+
+.flex_column {
+  @include media-query-max($on-mobile) {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-bottom: 20px;
+  }
+}
+
+.col-one-half { width: 50%; }
+
+.column-top-margin { margin-top: 50px; }

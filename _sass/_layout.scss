@@ -3,103 +3,46 @@
   src: url("../assets/fonts/entypo-fontello.woff") format("woff");
 }
 
+@import
+  "grids",
+  "site-header",
+  "site-footer",
+  "contact-us"
+;
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  position: relative;
+  width: 910px;
+  margin-right: auto;
+  margin-left: auto;
+  @extend %clearfix;
+
+  @include media-query-min($desktop-large) {
+    width: 1030px;
+  }
+  @include media-query-max($on-mobile) {
+    // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    // max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    // padding-right: $spacing-unit / 2;
+    // padding-left: $spacing-unit / 2;
+    width: 268px;
+  }
+  @media only screen and (max-width: 767px) and (min-width: 480px) { // mobile landscape
+    width: 428px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 989px) { // tablet portrait
+    width: 682px;
+  }
+}
+
+
 /**
  * Site header
  */
-.site-header {
-  position: fixed;
-  border-top: 1px solid $grey-color-light;
-  border-bottom: 1px solid $grey-color-light;
-  width: 100%;
-  z-index: 100;
-  background-color: rgba(255,255,255,0.95);
-
-  @include media-query-max($on-mobile) {
-    // Positioning context for the mobile navigation icon
-    position: relative;
-  }
-}
-
-.header-wrapper {
-  height: 88px;
-  line-height: 88px;
-
-  @include media-query-max($on-mobile) {
-    height: 80px;
-    line-height: 80px;
-  }
-}
-
-.site-title {
-  height: 100%;
-  float: left;
-
-  a {
-    display: block;
-    height: 100%;
-  }
-
-  img {
-    display: block;
-    max-height: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-}
-
-ul.page-links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-  li { float: left; }
-  li:hover, li.active {
-    a.page-link {
-      color: $text-color-dark;
-    }
-    .avia-underline {
-      opacity: 1;
-      visibility: visible;
-    }
-  }
-  li.active .avia-arrow-wrap { display: block; }
-
-  a.page-link {
-    display: block;
-    position: relative;
-    color: $text-color;
-    font-weight: 600;
-    text-decoration: none;
-    padding-left: 13px;
-    padding-right: 13px;
-  }
-
-  @include media-query-max($on-mobile) {
-    display: none;
-    background-color: white;
-    padding-top: 90px;
-    padding-bottom: 90px;
-
-    li { float: none; }
-    li:last-child a { border-bottom: 1px solid $grey-color-light; }
-
-    a.page-link {
-      line-height: 23px;
-      padding: 13px 28px;
-      border-top: 1px solid $grey-color-light;
-
-      &:before {
-        content: "\25B6";
-        position: absolute;
-        margin-left: -10px;
-        font-family: "entypo-fontello";
-        font-size: 7px;
-        color: $brand-color-dark;
-      }
-    }
-  }
-}
-
 .avia-underline {
   position: absolute;
   bottom: -1px;
@@ -172,39 +115,6 @@ ul.page-links {
 .full-screen { width: 100%; }
 
 
-/**
- * Site footer
- */
-.site-footer {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-top: 1px solid $grey-color-light;
-  font-size: 12px;
-
-  .copyright { color: $text-color-dark; }
-
-  nav {
-    float: right;
-    @include media-query-max($on-mobile) {
-      display: none;
-    }
-  }
-
-  ul.page-links li {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-left: 1px solid $grey-color-light;
-
-    &:first-of-type { border-left: none; }
-    &:last-of-type { padding-right: 0; }
-
-    &.active a {
-      color: $brand-color-dark;
-      font-weight: 600;
-    }
-  }
-}
-
 .photo-breaker {
   width: 100%;
   height: 390px;
@@ -212,40 +122,7 @@ ul.page-links {
   background-size: cover;
   background-position: center center;
 }
-.above-contact-us { background-image: url("../assets/images/2013/09/03.jpg"); }
 
-.office-info {
-  border-top: 1px solid $grey-color-light;
-
-  .city {
-    margin-top: 30px;
-    margin-bottom: 34px;
-
-    span {
-      font-size: 34px;
-      font-weight: 600;
-      color: $brand-color;
-      letter-spacing: 1px;
-    }
-  }
-
-  dt, dd { display: inline-block; }
-  dt { width: 10%; }
-  dd {
-    width: 80%;
-    vertical-align: top;
-    color: $text-color-dark;
-    line-height: 23px;
-  }
-
-  .icon-position {
-    font-family: "entypo-fontello";
-    color: $brand-color;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 20px;
-  }
-}
 
 .content { // set padding for content area
   padding-top: $spacing-unit;

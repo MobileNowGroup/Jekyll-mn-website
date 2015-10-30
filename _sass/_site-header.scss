@@ -1,0 +1,96 @@
+.site-header {
+  position: fixed;
+  border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255,255,255,0.95);
+
+  @include media-query-max($on-mobile) {
+    // Positioning context for the mobile navigation icon
+    position: relative;
+  }
+}
+
+
+.header-wrapper {
+  height: 88px;
+  line-height: 88px;
+
+  @include media-query-max($on-mobile) {
+    height: 80px;
+    line-height: 80px;
+  }
+}
+
+
+.site-title {
+  height: 100%;
+  float: left;
+
+  a {
+    display: block;
+    height: 100%;
+  }
+
+  img {
+    display: block;
+    max-height: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+
+ul.page-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li { float: left; }
+  li:hover, li.active {
+    a.page-link {
+      color: $text-color-dark;
+    }
+    .avia-underline {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  li.active .avia-arrow-wrap { display: block; }
+
+  a.page-link {
+    display: block;
+    position: relative;
+    color: $text-color;
+    font-weight: 600;
+    text-decoration: none;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  @include media-query-max($on-mobile) {
+    display: none;
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    li { float: none; }
+    li:last-child a { border-bottom: 1px solid $grey-color-light; }
+
+    a.page-link {
+      line-height: 23px;
+      padding: 13px 28px;
+      border-top: 1px solid $grey-color-light;
+
+      &:before {
+        content: "\25B6";
+        position: absolute;
+        margin-left: -10px;
+        font-family: "entypo-fontello";
+        font-size: 7px;
+        color: $brand-color-dark;
+      }
+    }
+  }
+}
