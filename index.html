@@ -135,7 +135,7 @@ title: Mobile Now Group | Full Service Mobile Agency in Shanghai and Singapore
   <div class="grid-sort-container no_margin-container isotope" data-portfolio-id="1">
 
     {% assign projects = site.projects | sort: 'order' %}
-    {% for project in projects %}
+    {% for project in projects limit: 6 %}
 
     <div class="item grid-entry no_margin col-one-third"><div class="inner-entry">
       <a href="{{ project.link }}" class="grid-image">
