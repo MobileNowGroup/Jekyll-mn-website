@@ -108,3 +108,32 @@
     color: $header-color;
   }
 }
+
+
+@media only screen and (max-width: 479px)
+{
+  .testimonial-image {
+    margin-right: 0;
+    margin-bottom: 15px;
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .testimonial-meta {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 767px)
+{
+  .testimonial {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-right: none;
+  }
+  .testimonial-row:last-child .testimonial:last-child {
+    border-top: 1px dashed $grey-color-light;
+  }
+}
