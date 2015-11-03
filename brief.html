@@ -1,0 +1,144 @@
+---
+layout: default
+title: Mobile Now Group | Send us your brief - Mobile Now Group
+permalink: /send-us-brief/
+---
+<div class="container bf-container">
+
+<h1>Send us a brief</h1>
+<p>
+  Please share some details in the simple form below. If you really don't like forms, of course email us at <a href="mailto:BriefUs@mobilenowgroup.com">BriefUs@mobilenowgroup.com</a>
+</p>
+
+<form class="eight units no_margin" id="brief-form">
+  <div class="bf-group av_one_half first">
+    <label for="usrname">Your name <em>*</em></label>
+    <input type="text" name="usrname" id="usrname" class="form-control" placeholder="Bilbo Baggins" autofocus required>
+  </div>
+  <div class="bf-group av_one_half second">
+    <label for="usrmail">Your email <em>*</em></label>
+    <input type="email" name="usrmail" id="usrmail" class="form-control" placeholder="yangwei5198@163.com" required>
+  </div>
+  <div class="bf-group unit alpha">
+    <label for="prjname">Project name <em>*</em></label>
+    <input type="text" name="prjname" id="prjname" class="form-control" required>
+  </div>
+
+  <span class="bf-label">Assistance required with <em>*</em></span>
+  <div class="bf-group unit alpha" id="ast-checkbox">
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="assistance" id="assistance1" value="consulting">
+      <label for="assistance1"><span></span>Consulting</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="assistance" id="assistance2" value="UI/UX Design">
+      <label for="assistance2"><span></span>UI/UX Design</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="assistance" id="assistance3" value="development">
+      <label for="assistance3"><span></span>Development</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="assistance" id="assistance4" value="marketing">
+      <label for="assistance4"><span></span>Marketing</label>
+    </div>
+  </div>
+
+  <span class="bf-label">Build</span>
+  <div class="bf-group unit alpha checkbox-list">
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="build" id="build1" value="ios">
+      <label for="build1"><span></span>IOS</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="build" id="build2" value="android">
+      <label for="build2"><span></span>Android</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="build" id="build3" value="phone">
+      <label for="build3"><span></span>Phone</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="build" id="build4" value="tablet">
+      <label for="build4"><span></span>Tablet</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="build" id="build5" value="game">
+      <label for="build5"><span></span>Game</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="build" id="build6" value="wechat">
+      <label for="build6"><span></span>WeChat</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="build" id="build7" value="responsive">
+      <label for="build7"><span></span>Responsive</label>
+    </div>
+  </div>
+
+  <div class="bf-group">
+    <span class="bf-label">Key functionality</span>
+    <textarea name="kfunction" class="form-control" rows="4"></textarea>
+  </div>
+  <div class="bf-group unit alpha">
+    <label for="trgtuser">Target audience</label>
+    <input type="text" name="trgtuser" id="trgtuser" class="form-control">
+  </div>
+
+  <span class="bf-label">Languages</span>
+  <div class="bf-group unit alpha checkbox-list languages">
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="language" id="lang1" value="english">
+      <label for="lang1"><span></span>English</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="language" id="lang2" value="simplifiedchinese">
+      <label for="lang2"><span></span>Simplified Chinese</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="language" id="lang3" value="traditionalchinese">
+      <label for="lang3"><span></span>Traditional Chinese</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="language" id="lang4" value="french">
+      <label for="lang4"><span></span>French</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="language" id="lang5" value="spanish">
+      <label for="lang5"><span></span>Spanish</label>
+    </div>
+    <div class="no_margin av_one_fourth">
+      <input type="checkbox" name="language" id="lang6" value="japanese">
+      <label for="lang6"><span></span>Japanese</label>
+    </div>
+    <div class="other-lang">
+      <input type="checkbox" name="language" id="lang0" value="other">
+      <label for="lang0"><span></span>Other</label>
+      <input type="text" name="language" id="">
+    </div>
+  </div>
+
+  <div class="bf-group av_one_half first">
+    <label for="bgtallocation">Budget allocation</label>
+    <input type="text" name="bgtallocation" id="bgtallocation" class="form-control">
+  </div>
+  <div class="bf-group av_one_half second">
+    <label for="lchdate">Target launch date</label>
+    <input type="text" name="lchdate" id="lchdate" class="form-control">
+  </div>
+
+  <span class="bf-label">Attach a more detailed brief</span>
+  <div class="bf-group unit alpha attachment">
+    <div id="filesToUpload"></div>
+    <label for="inputFile">Tap here to upload</label>
+    <input type="file" name="files[]" id="inputFile" accept=".doc,.docx,.pdf,image/*" multiple>
+    <span>(Please ensure attachments are less than 10MB)</span>
+    <p class="display-on-iPhone">
+      Please send documents via email at <a href="mailto:BriefUs@mobilenowgroup.com">BriefUs@mobilenowgroup.com</a>
+    </p>
+  </div>
+  <hr>
+  <input type="submit" value="Send" class="two units no_margin">
+</form>
+</div>
+<script src="{{ site.baseurl }}/js/brief/main.js"></script>
