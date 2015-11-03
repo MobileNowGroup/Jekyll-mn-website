@@ -129,10 +129,22 @@ a {
   color: $brand-color-dark;
   font-weight: 600;
   line-height: 16px;
-}
-a.mn-button:hover {
-  text-decoration: none;
-  color: white;
-  background-color: #96358c; // this equals to rgb(150, 53, 140)
-  border-color: #96358c;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #96358c; // this equals to rgb(150, 53, 140)
+    border-color: #96358c;
+  }
+
+  &.reverse {
+    background-color: #96358c;
+    border-color: #96358c;
+    color: white;
+  }
+  &.reverse:hover {
+    background-color: white;
+    border-color: $grey-color-light;
+    color: $brand-color-dark;
+  }
 }
