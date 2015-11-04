@@ -1,15 +1,5 @@
 @import "variables";
 
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-  margin: 0;
-  padding: 0;
-}
-
 
 /**
 * have padding and border included in the element's total width and height
@@ -21,6 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
+  margin: 0;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -147,4 +138,14 @@ a {
     border-color: $grey-color-light;
     color: $brand-color-dark;
   }
+}
+
+
+/**
+* List
+*/
+.list-unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
