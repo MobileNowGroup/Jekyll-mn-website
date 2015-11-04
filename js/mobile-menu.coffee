@@ -7,6 +7,8 @@ set_mobile_menu = ->
   page_links = $("#page-links")
   header     = $("#fixed-site-header")
   siblings   = $("body>.page-content, body>footer")
+  full_screen_height = $(window).height() - 2
+  wrapper_page_links = page_links.parent()
 
   show_menu.on "click", (event) ->
     event.preventDefault()
@@ -14,19 +16,16 @@ set_mobile_menu = ->
     show_menu.hide()
     hide_menu.show()
     header.addClass "full-screen"
-    page_links
-      .show()
-      .parent().addClass "full-screen"
+    wrapper_page_links.css "height", full_screen_height
+    page_links.addClass "show_mobile_menu"
 
   hide_menu.on "click", (event) ->
     event.preventDefault()
     siblings.show()
     hide_menu.hide()
     show_menu.show()
+    page_links.removeClass "show_mobile_menu"
     header.removeClass "full-screen"
-    page_links
-      .hide(1000)
-      .parent().removeClass "full-screen"
 
 
 $ ->
