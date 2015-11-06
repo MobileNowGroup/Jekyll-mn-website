@@ -5,7 +5,7 @@
 toggle_fixed_header_size = ->
   win        = $(window)
   element    = $("#fixed-site-header")
-  el_height  = $(element).height()
+  el_height  = $(element).height() + 2
   isMobile   = window.matchMedia("only screen and (max-width: 767px)").matches
   set_height = ->
     current_position = win.scrollTop()

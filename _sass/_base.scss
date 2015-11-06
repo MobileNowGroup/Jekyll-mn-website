@@ -63,7 +63,7 @@ a {
 
 
 /**
-* Make the selected text
+* Mark the selected text
 */
 ::-moz-selection {
   color: white;
@@ -107,37 +107,41 @@ a {
 /**
 * Button, link
 */
+.contrast_color {
+  color: white;
+  background-color: #96358c; // this equals to rgb(150, 53, 140)
+  border-color: #96358c;
+}
+.contrast_color_2 {
+  color: $brand-color-dark;
+  background-color: $background-color;
+  border: 1px solid $grey-color-light;
+}
+
 .btn-read-more-wrapper {
   clear: both;
   padding-top: 40px;
   padding-bottom: 20px;
 }
+
 .mn-button {
   display: inline-block;
-  background-color: white;
-  border: 1px solid $grey-color-light;
+  @extend .contrast_color_2;
   border-radius: 3px;
   padding: 10px 16px;
-  color: $brand-color-dark;
   font-weight: 600;
   line-height: 16px;
 
   &:hover {
     text-decoration: none;
-    color: white;
-    background-color: #96358c; // this equals to rgb(150, 53, 140)
-    border-color: #96358c;
   }
 
-  &.reverse {
-    background-color: #96358c;
-    border-color: #96358c;
-    color: white;
+  &:hover, &.reverse {
+    @extend .contrast_color;
   }
+
   &.reverse:hover {
-    background-color: white;
-    border-color: $grey-color-light;
-    color: $brand-color-dark;
+    @extend .contrast_color_2;
   }
 }
 
