@@ -29,7 +29,7 @@ $(document).ready(function() {
       keybNav : true,
       touchNav : true,
       skin : 'fullwidth',
-      skinsPath : '../../css/LayerSlider/skins/',
+      skinsPath : '../css/LayerSlider/skins/',
       navPrevNext : true,
       navStartStop : false,
       navButtons : false,
