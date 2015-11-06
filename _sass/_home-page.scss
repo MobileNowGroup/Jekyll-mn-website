@@ -86,6 +86,7 @@
 .testimonial-wrapper.start_animation .testimonial-image {
   -webkit-animation: avia_appear 1s 1;
   animation: avia_appear 1s 1;
+
   opacity: 1;
   @include mn-transform(scale(1));
 }
