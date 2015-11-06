@@ -9,7 +9,6 @@
   font-family: "entypo-fontello";
   font-size: 25px;
   color: white;
-  visibility: hidden;
   opacity: 0.5;
 }
 .ls-nav-prev { left: 30px !important; }
@@ -41,4 +40,10 @@
 }
 .ls-nav-next::before{
   content: "\E766";
+}
+
+@include media-query-max($on-mobile) {
+  .ls-nav-prev, .ls-nav-next {
+    display: block !important;
+  }
 }
