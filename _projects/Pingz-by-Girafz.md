@@ -1,6 +1,6 @@
 ---
 order: 13
-title: "Pingz by Girafz"
+projectTitle: "Pingz by Girafz"
 image: "2014/09/thumbnail-495x400.jpg"
 link: "pingz/"
 support: "universal"

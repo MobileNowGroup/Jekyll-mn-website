@@ -1,6 +1,6 @@
 ---
 order: 14
-title: "Kiwi Farm"
+projectTitle: "Kiwi Farm"
 image: "2013/09/zespri_thumbnail-495x400.png"
 link: "zespri-kiwi-farm/"
 support: "ios"

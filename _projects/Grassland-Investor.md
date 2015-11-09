@@ -1,6 +1,6 @@
 ---
 order: 6
-title: "Grassland Investor"
+projectTitle: "Grassland Investor"
 image: "2015/02/grassland_inv_thumbnail-495x400.jpg"
 link: "grassland-finance/"
 support: "html5"

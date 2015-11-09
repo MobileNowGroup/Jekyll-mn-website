@@ -1,6 +1,6 @@
 ---
 order: 18
-title: "Clipper.cn"
+projectTitle: "Clipper.cn"
 image: "2014/04/ClipperThumbnail.png"
 link: "clipper-cn/"
 support: "html5"

@@ -1,6 +1,6 @@
 ---
 order: 9
-title: "Michael Kors"
+projectTitle: "Michael Kors"
 image: "2014/05/Michael-Kors-WechatThumbnail.jpg"
 link: "michael-kors-wechat/"
 support: "wechat"
