@@ -4,8 +4,8 @@
   border-top: 1px solid $grey-color-light;
 
   .city {
-    margin-top: 30px;
-    margin-bottom: 34px;
+    margin-top: $spacing-unit * 1.5;
+    margin-bottom: $spacing-unit * 1.7;
 
     span {
       font-size: 34px;
@@ -34,8 +34,8 @@
 }
 
 .btn-brief-wrapper {
-  margin-top: 20px;
-  margin-bottom: 38px;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit * 2;
 
   .mn-button {
     line-height: initial;

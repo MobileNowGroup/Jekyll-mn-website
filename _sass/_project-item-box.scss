@@ -82,27 +82,23 @@
   display: inline-block;
   height: 26px;
   width: 26px;
-  margin-right: 10px;
+  margin-right: $spacing-unit * 0.5;
   vertical-align: bottom;
-}
 
-.target-device.ios {
+  &.ios {
   background: url("../assets/images/support_icons.png") -126px top no-repeat;
-}
-
-.target-device.android {
-  background: url("../assets/images/support_icons.png") -26px top no-repeat;
-}
-
-.target-device.universal {
-  background: url("../assets/images/support_icons.png") -52px top no-repeat;
-  width: 48px;
-}
-
-.target-device.html5 {
-  background: url("../assets/images/support_icons.png") 0px top no-repeat;
-}
-
-.target-device.wechat {
-  background: url("../assets/images/support_icons.png") -100px top no-repeat;
+  }
+  &.android {
+    background: url("../assets/images/support_icons.png") -26px top no-repeat;
+  }
+  &.universal {
+    background: url("../assets/images/support_icons.png") -52px top no-repeat;
+    width: 48px;
+  }
+  &.html5 {
+    background: url("../assets/images/support_icons.png") 0px top no-repeat;
+  }
+  &.wechat {
+    background: url("../assets/images/support_icons.png") -100px top no-repeat;
+  }
 }

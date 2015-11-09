@@ -42,7 +42,7 @@
 
 .photo-breaker {
   width: 100%;
-  height: 390px;
+  height: $spacing-unit * 19.5;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -50,8 +50,8 @@
 
 
 .content { // set padding for content area
-  padding-top: $spacing-unit;
-  padding-bottom: $spacing-unit;
+  padding-top: $spacing-unit * 2.5;
+  padding-bottom: $spacing-unit * 2.5;
 }
 
 /**
@@ -62,22 +62,38 @@
   line-height: 1.1em;
   color: $header-color;
   letter-spacing: 1px;
-
-  img {
-    margin-right: 20px;
-    vertical-align: text-bottom;
-  }
 }
 .content-h2.with-bottom-line {
   background: url("../assets/images/line.png") no-repeat center bottom;
-  padding-bottom: 57px;
-  margin-bottom: $spacing-unit;
+  padding-bottom: $spacing-unit * 2.8;
+  margin-bottom: $spacing-unit * 2.5;
   text-align: center;
 }
 
+.heading-icon {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin-right: $spacing-unit;
+  vertical-align: bottom;
+
+  &.work {
+    background: url("../assets/images/home_icons.png") -38px top no-repeat;
+  }
+  &.service {
+    background: url("../assets/images/home_icons.png") -76px top no-repeat;
+  }
+  &.words {
+    background: url("../assets/images/home_icons.png") 0px top no-repeat;
+  }
+  &.contact {
+    background: url("../assets/images/home_icons.png") -114px top no-repeat;
+  }
+}
+
 .content-p {
-  margin-top: 12px;
-  margin-bottom: 42px;
+  margin-top: 0;
+  margin-bottom: $spacing-unit * 2;
   color: $text-color-dark;
 }
 
@@ -87,11 +103,11 @@
  */
 #go-top-button {
   position: fixed;
-  right: $spacing-unit;
-  bottom: $spacing-unit;
-  width: $spacing-unit;
-  height: $spacing-unit;
-  line-height: $spacing-unit;
+  right: $spacing-unit * 2.5;
+  bottom: $spacing-unit * 2.5;
+  width: $spacing-unit * 2.5;
+  height: $spacing-unit * 2.5;
+  line-height: $spacing-unit * 2.5;
   font-family: "entypo-fontello";
   text-decoration: none;
   z-index: 100;

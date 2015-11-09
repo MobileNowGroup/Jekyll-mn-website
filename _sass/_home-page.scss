@@ -2,7 +2,7 @@
  * Services
  */
 .above-services {
-  height: 460px;
+  height: $spacing-unit * 23;
   background-image: url("../assets/images/2013/07/11.jpg");
 }
 
@@ -10,25 +10,26 @@
   display: block;
   width: 132px;
   height: 132px;
-  margin: 20px auto;
-}
-.service-icon.mobile-consultancy {
+  margin: $spacing-unit auto;
+
+  &.mobile-consultancy {
   background: url("../assets/images/service_icons.png") -660px top no-repeat;
-}
-.service-icon.ux-design {
-  background: url("../assets/images/service_icons.png") -528px top no-repeat;
-}
-.service-icon.ui-design {
-  background: url("../assets/images/service_icons.png") -264px top no-repeat;
-}
-.service-icon.game-concept-production {
-  background: url("../assets/images/service_icons.png") 0px top no-repeat;
-}
-.service-icon.development-build {
-  background: url("../assets/images/service_icons.png") -132px top no-repeat;
-}
-.service-icon.app-publishing-marketing {
-  background: url("../assets/images/service_icons.png") -396px top no-repeat;
+  }
+  &.ux-design {
+    background: url("../assets/images/service_icons.png") -528px top no-repeat;
+  }
+  &.ui-design {
+    background: url("../assets/images/service_icons.png") -264px top no-repeat;
+  }
+  &.game-concept-production {
+    background: url("../assets/images/service_icons.png") 0px top no-repeat;
+  }
+  &.development-build {
+    background: url("../assets/images/service_icons.png") -132px top no-repeat;
+  }
+  &.app-publishing-marketing {
+    background: url("../assets/images/service_icons.png") -396px top no-repeat;
+  }
 }
 
 
@@ -36,14 +37,14 @@
  * Client word
  */
 .above-client-word {
-  height: 460px;
+  height: $spacing-unit * 23;
   background-image: url("../assets/images/2013/07/pic-62.png");
 }
 
 .testimonial-wrapper {
   display: table;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: $spacing-unit * 1.5;
+  margin-bottom: $spacing-unit * 1.5;
 }
 
 .testimonial-row {
@@ -54,7 +55,7 @@
 
 .testimonial {
   display: table-cell;
-  padding: 20px;
+  padding: $spacing-unit;
   border-right: 1px dashed $grey-color-light;
   border-bottom: 1px dashed $grey-color-light;
 
@@ -63,9 +64,9 @@
 
 .testimonial-image {
   float: left;
-  margin-right: 20px;
-  width: 80px;
-  height: 80px;
+  margin-right: $spacing-unit;
+  width: $spacing-unit * 4;
+  height: $spacing-unit * 4;
 
   opacity: 0.2;
   @include mn-transform(scale(0.5));
@@ -96,13 +97,14 @@
   overflow: hidden;
 
   p {
+    margin-top: 0;
     margin-bottom: 0.85em;
     line-height: 1.65em;
   }
 }
 
 .testimonial-meta {
-  margin-left: 100px;
+  margin-left: $spacing-unit * 5;
 
   strong {
     display: block;
@@ -115,7 +117,7 @@
 {
   .testimonial-image {
     margin-right: 0;
-    margin-bottom: 15px;
+    margin-bottom: $spacing-unit * 0.75;
     width: 100%;
     float: none;
     text-align: center;

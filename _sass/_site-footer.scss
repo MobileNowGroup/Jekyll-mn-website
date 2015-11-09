@@ -1,6 +1,6 @@
 .site-footer {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: $spacing-unit * 0.75;
+  padding-bottom: $spacing-unit * 0.75;
   border-top: 1px solid $grey-color-light;
   font-size: 12px;
 
@@ -14,8 +14,8 @@
   }
 
   ul.page-links li {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: $spacing-unit * 0.5;
+    padding-right: $spacing-unit * 0.5;
     border-left: 1px solid $grey-color-light;
 
     &:first-of-type { border-left: none; }
