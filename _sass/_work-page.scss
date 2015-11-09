@@ -1,10 +1,10 @@
 .work-content {
-  padding-top: 20px;
-  padding-bottom: 90px;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit * 4.5;
 }
 
 .sort-filter-container {
-  margin-bottom: 30px;
+  margin-bottom: $spacing-unit * 1.5;
 
   a {
     color: $text-color;

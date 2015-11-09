@@ -80,8 +80,8 @@ title: Mobile Now Group | Full Service Mobile Agency in Shanghai and Singapore
     {% for project in projects limit: 6 %}
 
     <div class="item grid-entry no_margin col-one-third flex_column"><div class="inner-entry">
-      <a href="{{ project.link }}" class="grid-image">
-        <img src="{{ project.image }}" width="495" height="400" alt="{{ project.title }}">
+      <a href="{{ site.url }}{{ site.baseurl }}/work/{{ project.link }}" class="grid-image">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ project.image }}" width="495" height="400" alt="{{ project.title }}">
         <span class="image-overlay"></span>
       </a>
       <div class="grid-content">
