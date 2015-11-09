@@ -16,7 +16,10 @@
   }
 
   dt, dd { display: inline-block; }
-  dt { width: 10%; }
+  dt {
+    width: 10%;
+    margin-right: 5%;
+  }
   dd {
     width: 80%;
     vertical-align: top;
