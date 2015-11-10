@@ -1,15 +1,15 @@
 $(document).ready(function() {
-  if (typeof lsjQuery.fn.layerSlider == "undefined")
+  if (typeof $.fn.layerSlider == "undefined")
   {
     lsShowNotice('layerslider_1','jquery');
   }
-  else if (typeof lsjQuery.transit == "undefined" || typeof lsjQuery.transit.modifiedForLayerSlider == "undefined")
+  else if (typeof $.transit == "undefined" || typeof $.transit.modifiedForLayerSlider == "undefined")
   {
     lsShowNotice('layerslider_1', 'transit');
   }
   else
   {
-    lsjQuery("#layerslider_1").layerSlider({
+    $("#layerslider_1").layerSlider({
       width : '1440px',
       height : '650px',
       responsive : true,
