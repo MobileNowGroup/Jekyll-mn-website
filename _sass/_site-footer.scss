@@ -1,7 +1,7 @@
 .site-footer {
   padding-top: $spacing-unit * 0.75;
   padding-bottom: $spacing-unit * 0.75;
-  border-top: 1px solid $grey-color-light;
+  @extend .solid_top_border;
   font-size: 12px;
 
   .copyright { color: $text-color-dark; }

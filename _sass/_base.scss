@@ -42,6 +42,10 @@ h3 {
   font-size: 19px;
   color: $header-color;
 }
+h4 {
+  font-size: 17px;
+  color: $header-color;
+}
 
 
 /**
@@ -156,3 +160,11 @@ a {
 }
 
 dl, dt, dd { margin: 0; }
+
+
+/**
+ * Border
+ */
+.solid_top_border {
+  border-top: 1px solid $grey-color-light;
+}
