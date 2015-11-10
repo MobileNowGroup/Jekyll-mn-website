@@ -42,6 +42,24 @@
   content: "\E766";
 }
 
+.ls-bottom-slidebuttons {
+  top: -40px !important;
+  a {
+    width: $spacing-unit * 0.5 !important;
+    height: $spacing-unit * 0.5 !important;
+    margin-right: $spacing-unit * 0.5;
+    border-radius: $spacing-unit * 1.5;
+    border: 2px solid white !important;
+    background-color: black;
+    background-image: none !important;
+    opacity: 0.3;
+
+    &.ls-nav-active, &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
 @include media-query-max($on-mobile) {
   .ls-nav-prev, .ls-nav-next {
     display: block !important;

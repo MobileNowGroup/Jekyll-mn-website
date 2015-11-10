@@ -1,0 +1,61 @@
+.juiz_sps_links {
+  padding-top: $spacing-unit * 0.7;
+  padding-bottom: $spacing-unit * 0.7;
+
+  li, a {
+    display: inline-block;
+  }
+
+  a {
+    padding: 6px 10px 7px 10px;
+    margin: 2px 5px 2px 0;
+    background-color: $text-color;
+    color: $background-color;
+    text-decoration: none;
+    font-family: "Segoe WP", "Segoe UI", Helvetica, Arial, sans-serif;
+    @include mn-transition((color .2s, background-color .2s));
+
+    &:hover, &.focus {
+      color: #f2f2f2;
+      background-color: $text-color-dark;
+
+      .juiz_sps_icon{ margin-right: 5px; }
+      .juiz_sps_network_name { max-width: 85px; }
+    }
+
+    &>span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+.juiz_sps_icon {
+  width: 16px;
+  height: 16px;
+  background: url("../assets/images/sps_sprites_metro.png") 0 0 no-repeat;
+  @include mn-transition(margin .3s);
+
+  &.facebook {
+    background-position: -32px 0;
+  }
+  &.google-plus {
+    background-position: -16px 0;
+  }
+  &.linkedIn {
+    background-position: -96px 0;
+  }
+  &.weibo {
+    background-position: -144px 0;
+  }
+  &.email {
+    background-position: -48px 0;
+  }
+}
+
+.juiz_sps_network_name {
+  max-width: 0;
+  white-space: nowrap!important;
+  overflow: hidden;
+  @include mn-transition(max-width .3s);
+}
