@@ -1,3 +1,16 @@
+.project-share-download {
+  @extend .solid_top_border;
+
+  .download-link {
+    display: inline-block;
+    margin-top: $spacing-unit * 0.7;
+
+    &:first-of-type {
+      margin-right: $spacing-unit * 0.5;
+    }
+  }
+}
+
 .juiz_sps_links {
   padding-top: $spacing-unit * 0.7;
   padding-bottom: $spacing-unit * 0.7;

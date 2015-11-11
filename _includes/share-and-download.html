@@ -1,5 +1,6 @@
 <div class="project-share-download">
 <div class="wrapper content">
+
   <div class="av_one_half first flex_column">
     <h4>Spread the word:</h4>
     <ul class="list-unstyled juiz_sps_links">
@@ -35,5 +36,31 @@
       </li>
     </ul>
   </div>
+
+  {% if page.iosDownload or page.androidDownload %}
+
+  <div class="av_one_half flex_column">
+    <h4>Download your own version:</h4>
+
+    {% if page.iosDownload %}
+
+    <a class="download-link" title="{{ page.title }}" href="{{ page.iosDownload }}" target="_blank">
+      <img src="http://www.mobilenowgroup.com/wp-content/uploads/2013/12/badge_ios.png" width="134" height="36" alt="badge_ios">
+    </a>
+
+    {% endif %}
+
+    {% if page.androidDownload %}
+
+    <a class="download-link" title="{{ page.title }}" href="{{ page.androidDownload }}" target="_blank">
+      <img src="http://www.mobilenowgroup.com/wp-content/uploads/2015/01/badge_myapp.com_.png" width="134" height="36" alt="badge_myapp.com">
+    </a>
+
+    {% endif %}
+
+  </div>
+
+  {% endif %}
+
 </div>
 </div>

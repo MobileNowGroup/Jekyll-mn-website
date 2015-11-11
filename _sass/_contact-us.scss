@@ -18,7 +18,9 @@
   dt, dd { display: inline-block; }
   dt {
     width: 10%;
-    margin-right: 5%;
+    margin-left: 5%;
+
+    a { text-decoration: none; }
   }
   dd {
     width: 80%;
