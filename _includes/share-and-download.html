@@ -25,7 +25,7 @@
         </a>
       </li>
       <li>
-        <a href="http://service.weibo.com/share/share.php?title={{ page.socialShareText }}+%3A+%5Bav_layerslider+id%3D%2783%27%5D%0D%0A%0D%0A%5Bav_section+color%3D%27main_color%27+custom_bg%3D%27%27+src%3D%27%27+attachment%3D&amp;url=http://www.mobilenowgroup.com/work/{{ page.link }}/" rel="nofollow" title="Share this article on Weibo" target="_blank">
+        <a href="http://service.weibo.com/share/share.php?title={{ page.socialShareText }}&amp;url=http://www.mobilenowgroup.com/work/{{ page.link }}/" rel="nofollow" title="Share this article on Weibo" target="_blank">
           <span class="juiz_sps_icon weibo"></span><span class="juiz_sps_network_name">Weibo</span>
         </a>
       </li>
@@ -54,6 +54,14 @@
 
     <a class="download-link" title="{{ page.title }}" href="{{ page.androidDownload }}" target="_blank">
       <img src="http://www.mobilenowgroup.com/wp-content/uploads/2015/01/badge_myapp.com_.png" width="134" height="36" alt="badge_myapp.com">
+    </a>
+
+    {% endif %}
+
+    {% if page.androidDownload2 %}
+
+    <a class="download-link" title="{{ page.title }}" href="{{ page.androidDownload2 }}" target="_blank">
+      <img src="http://www.mobilenowgroup.com/wp-content/uploads/2015/02/HiapkAndroidMarket.png" width="134" height="36" alt="badge_myapp.com">
     </a>
 
     {% endif %}
