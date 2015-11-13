@@ -12,9 +12,10 @@ toggle_fixed_header_size = ->
     newH = 0
 
     if current_position < el_height/2
-      newH = el_height - current_position;
+      newH = el_height - current_position
     else
-      newH = el_height/2;
+      # border width included in the total height
+      newH = el_height/2 + 1
 
     element.css
       "height":      newH + "px",

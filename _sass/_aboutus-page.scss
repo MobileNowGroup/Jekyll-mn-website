@@ -7,3 +7,13 @@
   height: $spacing-unit * 25;
   background-image: url("http://www.mobilenowgroup.com/wp-content/uploads/2013/07/Looking-For-new.jpg");
 }
+
+#career {
+  border: none;
+  margin: 0;
+  height: $spacing-unit * 2.2;
+
+  @include media-query-max($on-mobile) {
+    display: none;
+  }
+}
