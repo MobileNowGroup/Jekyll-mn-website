@@ -17,3 +17,20 @@
     display: none;
   }
 }
+
+table.careers {
+  width: 100%;
+  color: #444444;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  td {
+    padding: 10px 13px;
+    vertical-align: baseline;
+  }
+
+  span.download {
+    font-family: "entypo-fontello";
+    margin-right: 5px;
+  }
+}
