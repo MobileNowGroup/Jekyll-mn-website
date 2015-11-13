@@ -5,8 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Full service mobile! Excellent branded apps, games and responsive websites.
 baseurl: "/jekyll-mn-website" # the subpath of your site, e.g. /blog/
 url: "" # "http://www.mobilenowgroup.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+prepend_assetsurl: "http://www.mobilenowgroup.com/wp-content/uploads/"
 
 # Build settings
 markdown: kramdown
