@@ -14,7 +14,8 @@
   height: $spacing-unit * 2.2;
 
   @include media-query-max($on-mobile) {
-    display: none;
+    visibility: hidden;
+    height: 0;
   }
 }
 
@@ -32,5 +33,16 @@ table.careers {
   span.download {
     font-family: "entypo-fontello";
     margin-right: 5px;
+  }
+}
+
+@include media-query-max($on-mobile) {
+  table.careers tr {
+    td { display: block; }
+    &>td:last-child {
+      border-bottom: 1px solid $grey-color-light;
+      padding-bottom: $spacing-unit * 1.5;
+      margin-bottom: $spacing-unit * 0.5;
+    }
   }
 }
