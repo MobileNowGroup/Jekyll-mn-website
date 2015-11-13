@@ -21,6 +21,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+p { color: $text-color-dark; }
 
 /**
  * Images
@@ -160,6 +161,18 @@ a {
 }
 
 dl, dt, dd { margin: 0; }
+
+ol {
+  margin-left: $spacing-unit * 1.5;
+  padding-left: 0;
+  color: $text-color-dark;
+
+  li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    line-height: 1.7;
+  }
+}
 
 
 /**

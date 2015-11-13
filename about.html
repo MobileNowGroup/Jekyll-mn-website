@@ -1,0 +1,115 @@
+---
+layout: default
+title: About us
+permalink: /about-us/
+---
+<div class="avia-layerslider">
+<div id="layerslider_1" class="ls-wp-container">
+
+  <div class="ls-layer" style="slidedirection: top; slidedelay: 7000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 500; timeshift: 0; transition2d: 3; transition3d: all; ">
+    <img src="{{ site.prepend_assetsurl }}2013/11/Groups-bg-L.jpg" class="ls-bg" alt="Slide background">
+    <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/09/mb4.png" style="position: absolute; top: 0px; left: 50%; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 420; rotateout : －90; showuntil : 0; ">
+    <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/09/mb3.png" style="position: absolute; top: 0px; left: 50%; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 200; delayout : 350; rotateout : －90; showuntil : 0; ">
+    <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/09/mb2.png" style="position: absolute; top: 0px; left: 50%; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 350; delayout : 200; rotateout : －90; showuntil : 0; ">
+    <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/09/mb1.png" style="position: absolute; top: 0px; left: 50%; slidedirection : bottom; slideoutdirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 420; delayout : 0; rotateout : -90; showuntil : 0; ">
+    <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/09/mb0.png" style="position: absolute; top: 0px; left: 50%; slidedirection : bottom; slideoutdirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 420; delayout : 0; rotateout : -90; showuntil : 0; ">
+  </div>
+</div>
+</div>
+
+<div class="wrapper content">
+  <p>We are a team of more than 40 specialists; Business Consultants, Strategists, Technologists, User Experience Wizards, User Interface Designers, Developers and Testers.</p>
+  <p>We all have one goal; to build the best apps and responsive websites out there. Nothing makes us sadder than downloading an app or accessing mobile content that does not live up to expectation.</p>
+  <p>Our team is small, but our ideas are big and we really have what it takes to make them happen.</p>
+
+  <div class="text-center btn-read-more-wrapper">
+    <a href="#career" class="mn-button">Join us</a>
+  </div>
+</div>
+
+<div class="photo-breaker above-facts"></div>
+
+<div class="wrapper content">
+  <h2 class="content-h2 with-bottom-line">Facts</h2>
+  <p>Launched in Shanghai, China on 2009.09.09</p>
+  <ol>
+    <li>Four Offices; Shanghai, Changsha, Singapore, Hangzhou</li>
+    <li>International team of 40</li>
+    <li>More than 60 apps launched to date across all major platforms</li>
+    <li>Clients include:&nbsp;The Coca Cola Company, Unilever, Ford, KFC, Standard Chartered Bank, Sephora, Michael Kors, Lane Crawford, Redbull, Bosch, SingTel, Zespri, Adeo, Lee Jeans, BAT, Lonely Planet, Greenpeace, Tourism Victoria and Xinhua</li>
+    <li>Accumulated 80 years of continuous game play across <em>KFC EXO</em>,&nbsp;<em>King of Frogs</em>, <em>Super Ball Escape</em>, <em>Kiwi Farm</em>, <em>Speedracer:The Beginning</em> and <em>Domo: The Journey</em></li>
+    <li>Over 7,000,000 app downloads</li>
+    <li>Most downloaded app: DatouDatou with over 2,000,000 downloads to date. #2 App overall in China and #1 Photo &amp; Video app&nbsp;across Greater China</li>
+  </ol>
+</div>
+
+<hr id="career">
+
+<div class="photo-breaker above-careers"></div>
+
+<div class="wrapper content">
+  <h2 class="content-h2 with-bottom-line">Careers</h2>
+</div>
+
+{% include layerslider-scripts.html %}
+<script>
+$(document).ready(function() {
+  if (typeof $.fn.layerSlider == "undefined") {
+    lsShowNotice('layerslider_1','jquery');
+  }
+  else if (typeof $.transit == "undefined" || typeof $.transit.modifiedForLayerSlider == "undefined") {
+    lsShowNotice('layerslider_1', 'transit');
+  }
+  else 
+  {
+    $("#layerslider_1").layerSlider({
+      width : '100%',
+      height : '650px',
+      responsive : true,
+      responsiveUnder : 1134,
+      sublayerContainer : 0,
+      autoStart : false,
+      pauseOnHover : false,
+      firstLayer : 1,
+      animateFirstLayer : true,
+      randomSlideshow : false,
+      twoWaySlideshow : true,
+      loops : 0,
+      forceLoopNum : true,
+      autoPlayVideos : true,
+      autoPauseSlideshow : 'auto',
+      youtubePreview : 'maxresdefault.jpg',
+      keybNav : true,
+      touchNav : true,
+      skin : 'fullwidth',
+      skinsPath : '../../css/LayerSlider/skins/',
+      navPrevNext : true,
+      navStartStop : true,
+      navButtons : true,
+      hoverPrevNext : true,
+      hoverBottomNav : true,
+      showBarTimer : false,
+      showCircleTimer : false,
+      thumbnailNavigation : 'disabled',
+      tnWidth : 80,
+      tnHeight : 60,
+      tnContainerWidth : '60%',
+      tnActiveOpacity : 35,
+      tnInactiveOpacity : 100,
+      imgPreload : true,
+      yourLogo : false,
+      yourLogoStyle : 'position: absolute; left: 10px; top: 10px; z-index: 99;',
+      yourLogoLink : false,
+      yourLogoTarget : '_self',
+      cbInit : function(element) { },
+      cbStart : function(data) { },
+      cbStop : function(data) { },
+      cbPause : function(data) { },
+      cbAnimStart : function(data) { },
+      cbAnimStop : function(data) { },
+      cbPrev : function(data) { },
+      cbNext : function(data) { }
+    });
+  }
+});
+</script>
