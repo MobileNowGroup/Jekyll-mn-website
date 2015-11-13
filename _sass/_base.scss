@@ -114,11 +114,11 @@ a {
 */
 .contrast_color {
   color: white;
-  background-color: #96358c; // this equals to rgb(150, 53, 140)
-  border-color: #96358c;
+  background-color: $brand-color-mid;
+  border-color: $brand-color-mid;
 }
 .contrast_color_2 {
-  color: $brand-color-dark;
+  color: $brand-color-mid;
   background-color: $background-color;
   border: 1px solid $grey-color-light;
 }
