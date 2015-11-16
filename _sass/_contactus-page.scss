@@ -1,0 +1,55 @@
+.main-to-contact {
+  @extend %clearfix;
+  padding-top: $spacing-unit * 2.5;
+  padding-bottom: $spacing-unit * 2.5;
+  margin-bottom: $spacing-unit * 2.5;
+
+  .team-img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    text-align: center;
+    &:hover .team-social{
+    	opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .team-social {
+    border: 7px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 3px;
+  }
+
+  .team-social-inner {
+    margin-top: 41%;
+
+    a {
+      border-radius: 100%;
+      margin: 3px;
+      background: $background-color;
+      display: inline-block;
+      width: 53px;
+      height: 53px;
+      line-height: 54px;
+      font-family: "entypo-fontello";
+      color: $text-color;
+      text-decoration: none;
+
+      &.email:hover { color: $brand-color-dark; }
+      &.linkedin:hover { color: #419cca; }
+      &.twitter:hover { color: #46d4fe; }
+    }
+   }
+
+  .team-member-name { margin-top: 7px; }
+  .team-member-job-title { font-size: 13px; }
+}
