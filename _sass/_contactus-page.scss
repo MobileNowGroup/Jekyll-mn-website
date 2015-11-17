@@ -27,10 +27,23 @@
     opacity: 0;
     visibility: hidden;
     border-radius: 3px;
+
+    @include media-query-max($on-mobile) {
+      border: 1px solid $grey-color-light;
+      position: relative;
+      font-size: 15px;
+      background: rgba(0, 0, 0, 0.03);
+      opacity: 1;
+      visibility: visible;
+      height: 60px;
+    }
   }
 
   .team-social-inner {
     margin-top: 41%;
+    @include media-query-max($on-mobile) {
+      margin-top: 0;
+    }
 
     a {
       border-radius: 100%;
@@ -43,6 +56,14 @@
       font-family: "entypo-fontello";
       color: $text-color;
       text-decoration: none;
+
+      @include media-query-max($on-mobile) {
+        width: 33px;
+        height: 33px;
+        line-height: 32px;
+        border: 1px solid $grey-color-light;
+        margin-top: 11px;
+      }
 
       &.email:hover { color: $brand-color-dark; }
       &.linkedin:hover { color: #419cca; }
