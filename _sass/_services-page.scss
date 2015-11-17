@@ -1,0 +1,42 @@
+.service-item-header {
+  padding-top: $spacing-unit * 2.5;
+
+  h3 {
+    font-size: 34px;
+    color: $grey-color-dark;
+    margin-bottom: 14px;
+  }
+}
+
+.service-item-content {
+  background-color: #fcfcfc;
+  padding-bottom: $spacing-unit * 1.5;
+
+  hr.border-center-shadow {
+    border: none;
+    height: 5px;
+  }
+
+  .service-img {
+    float: left;
+    width: 20%;
+  }
+  .service-detail {
+    float: left;
+    margin-left: 2%;
+    width: 78%;
+  }
+
+  @include media-query-max($on-mobile) {
+    .service-img {
+      text-align: center;
+      padding-top: $spacing-unit;
+      padding-bottom: $spacing-unit;
+    }
+    .service-img, .service-detail {
+      float: none;
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
