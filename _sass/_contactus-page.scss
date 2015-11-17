@@ -7,7 +7,7 @@
   .team-img-container {
     position: relative;
     overflow: hidden;
-    border-radius: 3px;
+    @extend .round_border;
     text-align: center;
     &:hover .team-social{
     	opacity: 1;
@@ -26,7 +26,7 @@
     background-color: rgba(255, 255, 255, 0.7);
     opacity: 0;
     visibility: hidden;
-    border-radius: 3px;
+    @extend .round_border;
 
     @include media-query-max($on-mobile) {
       border: 1px solid $grey-color-light;
