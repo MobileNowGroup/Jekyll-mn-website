@@ -2,7 +2,6 @@
   float: left;
   margin-left: 6%;
   width: 29.333333333333332%;
-  &.first { margin-left: 0; }
 }
 .no_margin.col-one-third {
   margin-left: 0;
@@ -23,7 +22,6 @@
   float: left;
   margin-left: 6%;
   width: 47%;
-  &.first { margin-left: 0; }
 }
 
 .column-top-margin { margin-top: $spacing-unit * 2.5; }
@@ -69,6 +67,10 @@ div .no_margin { margin-left: 0; }
 }
 .no_margin.av_one_fourth {
   width: 25%;
+}
+div.first {
+  margin-left: 0;
+  clear: left;
 }
 /* #Desktop - Large
 ================================================== */@media only screen and (min-width: 1140px) {
