@@ -23,6 +23,7 @@ body {
 
 p {
   color: $text-color-dark;
+  margin-top: 0;
   margin-bottom: 0.85em;
   line-height: 23px;
 }
@@ -187,6 +188,9 @@ ol {
  */
 .solid_top_border {
   border-top: 1px solid $grey-color-light;
+}
+.solid_right_border {
+  border-right: 1px solid $grey-color-light;
 }
 hr.border-center-shadow {
   background: url("../assets/images/line.png") no-repeat center bottom;

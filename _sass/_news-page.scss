@@ -1,0 +1,33 @@
+.template-blog {
+  padding-right: $spacing-unit * 2.5;
+}
+
+.post-content {
+  padding-bottom: $spacing-unit * 2.5;
+  margin-bottom: $spacing-unit * 2.5;
+
+  h2 {
+  	font-size: 21px;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+
+    a {
+      text-decoration: none;
+      color: $header-color;
+    }
+  }
+}
+
+.post-meta-infos {
+  font-size: 12px;
+  margin-bottom: 23px;
+
+  .text-sep {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .post-category {
+    text-transform: capitalize;
+  }
+}
