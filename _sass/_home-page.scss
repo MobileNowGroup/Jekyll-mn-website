@@ -85,11 +85,29 @@
 }
 
 .testimonial-wrapper.start_animation .testimonial-image {
-  -webkit-animation: avia_appear 1s 1;
-  animation: avia_appear 1s 1;
+  -webkit-animation-name: avia_appear;
+          animation-name: avia_appear;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+  -webkit-animation-fill-mode: forwards; /* Chrome, Safari, Opera */
+          animation-fill-mode: forwards;
 
-  opacity: 1;
-  @include mn-transform(scale(1));
+  &.second {
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
+  }
+  &.third {
+    -webkit-animation-delay: 300ms;
+            animation-delay: 300ms;
+  }
+  &.fourth {
+    -webkit-animation-delay: 400ms;
+            animation-delay: 400ms;
+  }
 }
 
 .testimonial-content {
