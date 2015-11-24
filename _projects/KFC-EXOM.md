@@ -10,6 +10,7 @@ link: "kfc-exo-m-%e7%8e%a9%e5%87%ba%e5%91%b3"
 socialShareText: "KFC%E7%8E%A9%E5%87%BA%E5%91%B3+%E2%80%A2+EXO-M+Edition"
 iosDownload: "https://itunes.apple.com/cn/app/kfc-wan-chu-wei-exo-m-edition/id945981194?l=en&amp;mt=8"
 androidDownload: "http://android.myapp.com/myapp/detail.htm?apkName=com.yum.KFCEXO"
+androidDownloadIcon: "2015/01/badge_myapp.com_.png"
 ---
 <div class="avia-layerslider">
   <div id="layerslider_1" class="ls-wp-container">

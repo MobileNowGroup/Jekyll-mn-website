@@ -10,6 +10,7 @@ link: "paxifi"
 socialShareText: "Paxifi"
 iosDownload: "https://itunes.apple.com/us/app/paxifi-stores-on-wheels/id942389884"
 androidDownload: "https://play.google.com/store/apps/details?id=com.mobilenow.paxifi"
+androidDownloadIcon: "2013/12/badge_android.png"
 ---
 <div class="avia-layerslider">
   <div id="layerslider_1" class="ls-wp-container">

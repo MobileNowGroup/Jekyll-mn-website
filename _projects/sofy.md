@@ -9,7 +9,8 @@ image: "2015/02/Breezeliving_thumbnail-495x400.png"
 link: "sofy"
 socialShareText: "%E7%88%B1%E7%8E%A9%E8%8B%8F%E8%8F%B2%E5%85%94"
 iosDownload: "https://itunes.apple.com/cn/app/ai-wan-su-fei-tu/id875795508?mt=8"
-androidDownload2: "http://apk.hiapk.com/appinfo/archiive.sofy/3"
+androidDownload: "http://apk.hiapk.com/appinfo/archiive.sofy/3"
+androidDownloadIcon: "2015/02/HiapkAndroidMarket.png"
 ---
 <div class="avia-layerslider">
   <div id="layerslider_1" class="ls-wp-container">
