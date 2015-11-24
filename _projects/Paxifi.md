@@ -101,7 +101,7 @@ $(document).ready(function() {
   else if (typeof $.transit == "undefined" || typeof $.transit.modifiedForLayerSlider == "undefined") {
     lsShowNotice('layerslider_1', 'transit');
   }
-  else 
+  else
   {
     $("#layerslider_1").layerSlider({
       width : '1440px',
