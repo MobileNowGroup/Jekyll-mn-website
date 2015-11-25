@@ -59,6 +59,17 @@
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.project-detail .video-js {
+  margin-top: $spacing-unit * 1.75;
+}
+.video-js {
+  border: 5px solid #e6e5e5;
+}
+.vjs-default-skin .vjs-big-play-button {
+  left: 40% !important;
+  top: 40% !important;
+}
+
 .avia-layerslider {
   overflow: hidden;
   clear: both;

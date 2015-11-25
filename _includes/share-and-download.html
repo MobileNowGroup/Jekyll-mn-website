@@ -37,7 +37,7 @@
     </ul>
   </div>
 
-  {% if page.iosDownload or page.androidDownload %}
+  {% if page.iosDownload or page.androidDownload or page.pdfDownload %}
 
   <div class="av_one_half flex_column">
     <h4>Download your own version:</h4>
@@ -54,6 +54,14 @@
 
     <a class="download-link" title="{{ page.title }}" href="{{ page.androidDownload }}" target="_blank">
       <img src="{{ site.prepend_assetsurl }}{{ page.androidDownloadIcon }}" width="134" height="36" alt="badge_android">
+    </a>
+
+    {% endif %}
+
+    {% if page.pdfDownload %}
+
+    <a class="download-link" title="{{ page.title }}" href="{{ site.prepend_assetsurl }}{{ page.pdfDownload }}" download>
+      <img src="{{ site.prepend_assetsurl }}2014/03/pdf.png" width="134" height="36" alt="badge_pdf">
     </a>
 
     {% endif %}
