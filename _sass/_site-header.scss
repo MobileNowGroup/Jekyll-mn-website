@@ -53,6 +53,7 @@ ul.page-links {
   li:hover, li.active {
     a.page-link {
       color: $text-color-dark;
+      font-weight: 600;
     }
     span.avia-underline {
       opacity: 1;
@@ -65,7 +66,6 @@ ul.page-links {
     position: relative;
     display: block;
     color: $text-color;
-    font-weight: 600;
     text-decoration: none;
     padding-left: 13px;
     padding-right: 13px;
