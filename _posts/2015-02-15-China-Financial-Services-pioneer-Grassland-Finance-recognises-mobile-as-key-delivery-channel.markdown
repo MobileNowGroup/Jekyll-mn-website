@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "China Financial Services pioneer Grassland Finance recognises mobile as key delivery channel"
-date:   15 Feb 2015
 author: admin
 categories: News
 permalink: /china-financial-services-pioneer-grassland-finance-recognises-mobile-key-delivery-channel/
+socialShareText: "China+Financial+Services+pioneer+Grassland+Finance+recognises+mobile+as+key+delivery+channel"
 ---
 As both a founder of and investor in financial services institutions across China, Grassland appreciated the significance of the mobile communications channel.
 
@@ -21,5 +21,5 @@ Both sites can be viewed
 <http://www.gaoxinlong.com/>
 
 <http://grassfin.com/>
-
 <!--more-->
+{% include news-share-download.html %}
