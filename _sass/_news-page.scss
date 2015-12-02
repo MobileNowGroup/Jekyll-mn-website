@@ -63,3 +63,15 @@
     line-height: 35px;
   }
 }
+
+.archives-sidebar {
+  margin-left: $spacing-unit * 2.5;
+  h3 {
+    margin-bottom: $spacing-unit * 0.5;
+  }
+  a {
+    color: $text-color;
+    display: block;
+    margin-bottom: 3px;
+  }
+}
