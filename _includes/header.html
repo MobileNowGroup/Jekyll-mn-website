@@ -33,7 +33,7 @@
             <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
           </a>
         </li>
-        <li{% if page.url == "/news/" %} class="active"{% endif %}>
+        <li{% if page.url contains "/news/" %} class="active"{% endif %}>
           <a class="page-link" href="{{ site.url }}{{ site.baseurl }}/news/">News
             <span class="avia-underline"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span>
           </a>
