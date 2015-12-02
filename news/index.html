@@ -17,26 +17,40 @@ title: News
           <span class="text-sep">/</span>
           <span>by <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.author }}/" class="post-author">{{ post.author }}</a></span>
         </div>
-
         {{ post.excerpt }}
-
       </div>
       {% endfor %}
 
       <!-- Pagination links -->
+      {% if paginator.total_pages > 1 %}
       <div class="pagination">
         {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-        {% else %}
-          <span class="previous">Previous</span>
+          {% if paginator.page > 3 %}
+            <a href="{{ '/news/' | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+          {% endif %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lsaquo;</a>
         {% endif %}
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <span class="current-page">{{ page }}</span>
+          {% elsif page == 1 %}
+            <a href="{{ '/news/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+          {% else %}
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          {% endif %}
+        {% endfor %}
+
         {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-        {% else %}
-          <span class="next ">Next</span>
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&rsaquo;</a>
+          {% if paginator.total_pages > 3 %}
+            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">&raquo;</a>
+          {% endif %}
         {% endif %}
+
+        <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
       </div>
+      {% endif %}
     </div>
   </div>
 
