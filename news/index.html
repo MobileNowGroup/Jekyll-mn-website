@@ -24,6 +24,7 @@ title: News
       <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
       <div class="pagination">
+
         {% if paginator.previous_page %}
           {% if paginator.page > 3 %}
             <a href="{{ '/news/' | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
@@ -31,7 +32,9 @@ title: News
           <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&lsaquo;</a>
         {% endif %}
 
-        {% for page in (1..paginator.total_pages) %}
+        {% capture start %}{{ paginator.page | minus: 3 }}{% endcapture %}
+
+        {% for page in (1..paginator.total_pages) limit: 5 offset: start %}
           {% if page == paginator.page %}
             <span class="current-page">{{ page }}</span>
           {% elsif page == 1 %}
