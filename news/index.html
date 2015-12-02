@@ -46,7 +46,8 @@ title: News
 
         {% if paginator.next_page %}
           <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&rsaquo;</a>
-          {% if paginator.total_pages > 3 %}
+          {% assign end = paginator.page | plus: 2 %}
+          {% if paginator.total_pages > end %}
             <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', paginator.total_pages }}">&raquo;</a>
           {% endif %}
         {% endif %}
