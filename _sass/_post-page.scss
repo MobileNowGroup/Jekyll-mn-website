@@ -1,6 +1,7 @@
 .nothing-wrapper {
   float: left;
   margin-right: $spacing-unit * 2.5;
+  position: relative;
 }
 
 .nothing-icon {
@@ -14,5 +15,30 @@
     font-size: 23px;
     font-family: "entypo-fontello";
     line-height: $spacing-unit * 4;
+  }
+
+  a {
+    display: block;
+    border-radius: 4px;
+    text-decoration: none;
+    color: $background-color;
+    &:hover {
+      background-color: $brand-color-dark;
+    }
+  }
+}
+
+.post-timeline {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 1px;
+  height: 100%;
+  border-right: 1px dashed #e1e1e1;
+}
+
+@include media-query-max($on-mobile) {
+  .nothing-wrapper, .post-timeline {
+    display: none;
   }
 }
