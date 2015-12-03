@@ -46,6 +46,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
+  @include media-query-max($on-mobile) {
+    height: $spacing-unit * 12.5;
+  }
 }
 
 
@@ -133,7 +137,7 @@
  * Page content
  */
 .page-content {
-  @include media-query-min($on-laptop) {
+  @include media-query-min($on-mobile) {
     padding-top: 88px;
   }
 }
