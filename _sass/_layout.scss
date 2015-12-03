@@ -25,10 +25,6 @@
     width: 1030px;
   }
   @include media-query-max($on-mobile) {
-    // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-    // max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    // padding-right: $spacing-unit / 2;
-    // padding-left: $spacing-unit / 2;
     width: 268px;
   }
   @media only screen and (max-width: 767px) and (min-width: 480px) { // mobile landscape
@@ -40,23 +36,11 @@
 }
 
 
-.photo-breaker {
-  width: 100%;
-  height: $spacing-unit * 19.5;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-
-  @include media-query-max($on-mobile) {
-    height: $spacing-unit * 12.5;
-  }
-}
-
-
 .content { // set padding for content area
   padding-top: $spacing-unit * 2.5;
   padding-bottom: $spacing-unit * 2.5;
 }
+
 
 /**
 * Common header
@@ -133,11 +117,51 @@
   }
 }
 
+
 /**
  * Page content
  */
 .page-content {
   @include media-query-min($on-mobile) {
     padding-top: 88px;
+  }
+}
+
+
+/**
+ * Photo used to separate content
+ */
+.photo-breaker {
+  width: 100%;
+  height: $spacing-unit * 19.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @include media-query-max($on-mobile) {
+    height: $spacing-unit * 12.5 !important;
+  }
+
+  &.above-services {
+    height: $spacing-unit * 23;
+    background-image: url("http://www.mobilenowgroup.com/wp-content/uploads/2013/07/11.jpg");
+  }
+
+  &.above-client-word {
+    height: $spacing-unit * 23;
+    background-image: url("http://www.mobilenowgroup.com/wp-content/uploads/2013/07/pic-62.png");
+  }
+
+  &.above-contact-us {
+    background-image: url("http://www.mobilenowgroup.com/wp-content/uploads/2013/09/3.jpg");
+  }
+
+  &.above-facts {
+    background-image: url("http://www.mobilenowgroup.com/wp-content/uploads/2013/07/pic-8.jpg");
+  }
+
+  &.above-careers {
+    height: $spacing-unit * 25;
+    background-image: url("http://www.mobilenowgroup.com/wp-content/uploads/2013/07/Looking-For-new.jpg");
   }
 }
