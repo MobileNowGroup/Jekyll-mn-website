@@ -1,15 +1,32 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="wrapper container">
+  <div class="nine units first">
+    <div class="content template-blog">
+      <div class="nothing-wrapper">
+        <div class="nothing-icon">
+          <span>✎</span>
+        </div>
+      </div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+      <div class="post">
+        <header>
+          <h2>{{ page.title }}</h2>
+          <div class="post-meta-infos">
+            <span>{{ page.date | date_to_string }}</span>
+            <span class="text-sep">/</span>
+            <span>in <a href="{{ site.url }}{{ site.baseurl }}/category/{{ page.categories }}/" class="post-category">{{ page.categories }}</a></span>
+            <span class="text-sep">/</span>
+            <span>by <a href="{{ site.url }}{{ site.baseurl }}/category/{{ page.author }}/" class="post-author">{{ page.author }}</a></span>
+          </div>
+        </header>
+        <article>
+          {{ content }}
+        </article>
+      </div>
+    </div>
+  </div>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+  {% include archives-date.html %}
 </div>

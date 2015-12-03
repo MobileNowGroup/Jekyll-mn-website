@@ -1,0 +1,18 @@
+.nothing-wrapper {
+  float: left;
+  margin-right: $spacing-unit * 2.5;
+}
+
+.nothing-icon {
+  width: $spacing-unit * 4;
+  height: $spacing-unit * 4;
+  border-radius: 4px;
+  text-align: center;
+  background-color: $text-color;
+  color: $background-color;
+  span {
+    font-size: 23px;
+    font-family: "entypo-fontello";
+    line-height: $spacing-unit * 4;
+  }
+}
