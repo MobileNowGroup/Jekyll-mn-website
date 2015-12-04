@@ -3,9 +3,8 @@ title: Your awesome title
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Full service mobile! Excellent branded apps, games and responsive websites.
-baseurl: "/jekyll-mn-website" # the subpath of your site, e.g. /blog/
-url: "" # "http://www.mobilenowgroup.com"
-prepend_assetsurl: "http://www.mobilenowgroup.com/wp-content/uploads/"
+baseurl: "/jekyll-mn-website" # "http://www.mobilenowgroup.com"
+assetsurl: "http://www.mobilenowgroup.com/wp-content/uploads/"
 
 # Build settings
 markdown: kramdown

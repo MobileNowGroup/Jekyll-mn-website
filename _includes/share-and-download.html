@@ -45,7 +45,7 @@
     {% if page.iosDownload %}
 
     <a class="download-link" title="{{ page.title }}" href="{{ page.iosDownload }}" target="_blank">
-      <img src="{{ site.prepend_assetsurl }}2013/12/badge_ios.png" width="134" height="36" alt="badge_ios">
+      <img src="{{ site.assetsurl }}2013/12/badge_ios.png" width="134" height="36" alt="badge_ios">
     </a>
 
     {% endif %}
@@ -53,15 +53,15 @@
     {% if page.androidDownload %}
 
     <a class="download-link" title="{{ page.title }}" href="{{ page.androidDownload }}" target="_blank">
-      <img src="{{ site.prepend_assetsurl }}{{ page.androidDownloadIcon }}" width="134" height="36" alt="badge_android">
+      <img src="{{ site.assetsurl }}{{ page.androidDownloadIcon }}" width="134" height="36" alt="badge_android">
     </a>
 
     {% endif %}
 
     {% if page.pdfDownload %}
 
-    <a class="download-link" title="{{ page.title }}" href="{{ site.prepend_assetsurl }}{{ page.pdfDownload }}" download>
-      <img src="{{ site.prepend_assetsurl }}2014/03/pdf.png" width="134" height="36" alt="badge_pdf">
+    <a class="download-link" title="{{ page.title }}" href="{{ site.assetsurl }}{{ page.pdfDownload }}" download>
+      <img src="{{ site.assetsurl }}2014/03/pdf.png" width="134" height="36" alt="badge_pdf">
     </a>
 
     {% endif %}
