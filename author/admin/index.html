@@ -14,7 +14,7 @@ title: News
           <div class="post-meta-infos">
             <span>{{ post.date | date_to_string }}</span>
             <span class="text-sep">/</span>
-            <span>in <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.categories }}/" class="post-category">{{ post.categories }}</a></span>
+            <span>in <a href="{{ site.baseurl }}/category/{{ post.categories }}/" class="post-category">{{ post.categories }}</a></span>
           </div>
         </header>
         <article>{{ post.excerpt | strip_html | truncatewords: 55 | replace: "...", " [...]" }}</article>

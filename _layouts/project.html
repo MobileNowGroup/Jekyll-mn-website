@@ -13,7 +13,7 @@ layout: default
     {% for project in projects limit: 4 %}
 
     <div class="item grid-entry no_margin av_one_fourth flex_column"><div class="inner-entry">
-      <a href="{{ site.url }}{{ site.baseurl }}/work/{{ project.link }}/" class="grid-image">
+      <a href="{{ site.baseurl }}/work/{{ project.link }}/" class="grid-image">
         <img src="{{ site.assetsurl }}{{ project.image }}" width="495" height="400" alt="{{ project.projectTitle }}">
         <span class="image-overlay"></span>
       </a>
