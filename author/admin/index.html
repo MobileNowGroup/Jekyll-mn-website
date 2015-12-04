@@ -1,0 +1,28 @@
+---
+layout: default
+title: News
+---
+<div class="wrapper container">
+  <div class="nine units first">
+    <div class="content template-blog">
+      <h3 class="entries-by">ENTRIES BY ADMIN</h3>
+      {% for post in site.posts limit: 10 %}
+      {% if post.author == "admin" %}
+      <div class="post entry-content">
+        <header>
+          <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+          <div class="post-meta-infos">
+            <span>{{ post.date | date_to_string }}</span>
+            <span class="text-sep">/</span>
+            <span>in <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.categories }}/" class="post-category">{{ post.categories }}</a></span>
+          </div>
+        </header>
+        <article>{{ post.excerpt | strip_html | truncatewords: 55 | replace: "...", " [...]" }}</article>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  {% include archives-date.html %}
+</div>
