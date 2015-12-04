@@ -32,7 +32,6 @@ permalink: /work/
 
     {% assign projects = site.projects | sort: "order" %}
     {% for project in projects %}
-
     <div class="item grid-entry no_margin col-one-third flex_column all_sort {{ project.category }}"><div class="inner-entry">
       <a href="{{ site.url }}{{ site.baseurl }}/work/{{ project.link }}/" class="grid-image">
         <img src="{{ site.prepend_assetsurl }}{{ project.image }}" width="495" height="400" alt="{{ project.projectTitle }}">
@@ -43,7 +42,6 @@ permalink: /work/
         <div class="grid-entry-excerpt"><span class="target-device {{ project.support }}"></span>{{ project.projectTitle }}</div>
       </div>
     </div></div>
-
     {% endfor %}
 
   </div>

@@ -18,9 +18,7 @@ title: News
             <span>by <a href="{{ site.url }}{{ site.baseurl }}/author/{{ post.author }}/" class="post-author">{{ post.author }}</a></span>
           </div>
         </header>
-        <article>
-          {{ post.excerpt }}
-        </article>
+        <article>{{ post.excerpt }}</article>
       </div>
       {% endfor %}
 
@@ -36,7 +34,6 @@ title: News
         {% endif %}
 
         {% capture start %}{{ paginator.page | minus: 3 }}{% endcapture %}
-
         {% for page in (1..paginator.total_pages) limit: 5 offset: start %}
           {% if page == paginator.page %}
             <span class="current-page">{{ page }}</span>

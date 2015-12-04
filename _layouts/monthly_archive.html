@@ -25,9 +25,7 @@ layout: default
             <span>by <a href="{{ site.url }}{{ site.baseurl }}/author/{{ post.author }}/" class="post-author">{{ post.author }}</a></span>
           </div>
         </header>
-        <article>
-          {{ post.excerpt }}
-        </article>
+        <article>{{ post.excerpt }}</article>
       </div>
       {% endif %}
       {% endfor %}
