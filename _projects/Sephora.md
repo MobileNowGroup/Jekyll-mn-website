@@ -1,7 +1,7 @@
 ---
 title: Sephora
 permalink: /work/sephora/
-order: 19
+order: 20
 projectTitle: "Sephora"
 support: "ios"
 category: "retail_sort"
