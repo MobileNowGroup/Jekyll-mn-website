@@ -6,7 +6,7 @@ categories: News
 permalink: /lane-crawford/
 socialShareText: "Lane+Crawford+creates+social%2C+shopping+experience+on+WeChat"
 ---
-<img alt="" src="{{ site.prepend_assetsurl }}2015/02/lanecrawford_thumbnail.png" width="479" height="386">
+<img alt="" src="{{ site.assetsurl }}2015/02/lanecrawford_thumbnail.png" width="479" height="386">
 
 Lane Crawford has just launched a WeChat Service Account with a completely customised CMS.
 
@@ -20,6 +20,6 @@ The account has also been primed for full POS integration and ecommerce enableme
 
 Follow Lane Crawford by scanning the QR code.
 
-<img alt="LaneCrawfordQR" src="{{ site.prepend_assetsurl }}2015/02/LaneCrawfordQR.png" width="240" height="240">
+<img alt="LaneCrawfordQR" src="{{ site.assetsurl }}2015/02/LaneCrawfordQR.png" width="240" height="240">
 <!--more-->
 {% include news-share-download.html %}

@@ -10,7 +10,7 @@ iosDownload: "https://itunes.apple.com/cn/app/ai-wan-su-fei-tu/id875795508?mt=8"
 androidDownload: "http://apk.hiapk.com/appinfo/archiive.sofy/3"
 androidDownloadIcon: "2015/02/HiapkAndroidMarket.png"
 ---
-<img alt="" src="{{ site.prepend_assetsurl }}2015/02/Breezeliving_thumbnail.png" width="479" height="386">
+<img alt="" src="{{ site.assetsurl }}2015/02/Breezeliving_thumbnail.png" width="479" height="386">
 
 Sofy's new and improved 爱玩苏菲兔 (Ai Wan Su Fei Tu) app now provides better quality 3D features, as well as introducing a fun whack-a-mole inspired game.
 

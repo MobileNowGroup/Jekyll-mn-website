@@ -13,7 +13,7 @@ socialShareText: "Clipper.cn"
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: all; ">
-      <img src="{{ site.prepend_assetsurl }}2014/04/clipper.cn_.png" class="ls-bg" alt="Slide background">
+      <img src="{{ site.assetsurl }}2014/04/clipper.cn_.png" class="ls-bg" alt="Slide background">
     </div>
   </div>
 </div>

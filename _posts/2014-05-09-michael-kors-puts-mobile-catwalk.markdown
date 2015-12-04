@@ -16,6 +16,6 @@ The Fashion Show took place on 9 May, with content from the show made immediatel
 
 For those not able to make it to the show, the event was captured in 360˚, offering fans front row seats to relive the highlights of the show from the convenience of their mobile devices, via a mobile app.
 
-<img alt="Michael Kors 360Thumbnail" src="{{ site.prepend_assetsurl }}2014/05/Michael-Kors-360Thumbnail.jpg" width="495" height="400">
+<img alt="Michael Kors 360Thumbnail" src="{{ site.assetsurl }}2014/05/Michael-Kors-360Thumbnail.jpg" width="495" height="400">
 <!--more-->
 {% include news-share-download.html %}

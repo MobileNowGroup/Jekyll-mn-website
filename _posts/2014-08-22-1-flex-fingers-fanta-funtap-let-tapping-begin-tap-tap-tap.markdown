@@ -17,6 +17,6 @@ An addictive game concept was concepted and created, challenging players to catc
 Players choose from three Fanta flavours; Orange, Strawberry and Grape, each with it's own unique gameplay, representing the distinct character of each flavour.
 
 
-<img alt="Fanta FunTap" src="{{ site.prepend_assetsurl }}2014/09/thumbnail1.jpg" width="410" height="331">
+<img alt="Fanta FunTap" src="{{ site.assetsurl }}2014/09/thumbnail1.jpg" width="410" height="331">
 <!--more-->
 {% include news-share-download.html %}

@@ -14,6 +14,6 @@ User's can also search for offers nearby, with handy map and AR views of what's 
 
 Any offers that they wish to redeem is simply done, just by popping into the retailer and showing them the barcode on their device. Easy.
 
-<img alt="pingz" src="{{ site.prepend_assetsurl }}2014/09/thumbnail.jpg" width="479" height="386">
+<img alt="pingz" src="{{ site.assetsurl }}2014/09/thumbnail.jpg" width="479" height="386">
 <!--more-->
 {% include news-share-download.html %}

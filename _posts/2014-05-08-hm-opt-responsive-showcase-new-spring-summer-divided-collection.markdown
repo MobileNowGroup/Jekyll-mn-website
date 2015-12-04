@@ -12,9 +12,9 @@ Built around their _H&amp;M Loves Music_ proposition, visitors can view the new 
 
 A second phase is coming next month to launch the H&M summer collection. This features an innovative music mixer, allowing visitors to remix a track via their fashion selections.
 
-<img alt="hmretail" src="{{ site.prepend_assetsurl }}2014/05/hmretail-772x1030.jpg" width="463" height="618">
+<img alt="hmretail" src="{{ site.assetsurl }}2014/05/hmretail-772x1030.jpg" width="463" height="618">
 
-<img alt="hmlovesmusic" src="{{ site.prepend_assetsurl }}2014/05/hmlovesmusic-772x1030.jpg" width="463" height="618">
+<img alt="hmlovesmusic" src="{{ site.assetsurl }}2014/05/hmlovesmusic-772x1030.jpg" width="463" height="618">
 
 Site link:
 

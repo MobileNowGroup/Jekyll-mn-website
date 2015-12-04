@@ -10,7 +10,7 @@ iosDownload: "https://itunes.apple.com/cn/app/kfc-wan-chu-wei-exo-m-edition/id94
 androidDownload: "http://android.myapp.com/myapp/detail.htm?apkName=com.yum.KFCEXO"
 androidDownloadIcon: "2015/01/badge_myapp.com_.png"
 ---
-<img alt="" src="{{ site.prepend_assetsurl }}2015/01/kfc_template01-1030x429.jpg" width="593" height="247">
+<img alt="" src="{{ site.assetsurl }}2015/01/kfc_template01-1030x429.jpg" width="593" height="247">
 
 KFC's new campaign tasks mobile to drive both brand engagement and footfall into retail, with the launch of _KFC玩出味 • EXO-M Edition_.
 

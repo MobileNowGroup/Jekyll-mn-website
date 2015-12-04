@@ -16,6 +16,6 @@ It's paperless, yet secure and can be updated centrally to ensure that RMs are a
 
 Visit [SimplePlugandPlay.com](http://simpleplugandplay.com/) for more.
 
-<img alt="Simple Plug and Pay" src="{{ site.prepend_assetsurl }}2014/01/Simple-Plug-and-Pay.jpg" width="684" height="552">
+<img alt="Simple Plug and Pay" src="{{ site.assetsurl }}2014/01/Simple-Plug-and-Pay.jpg" width="684" height="552">
 <!--more-->
 {% include news-share-download.html %}

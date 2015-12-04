@@ -14,6 +14,6 @@ A clean approach to UX has been taken to ensure a smooth and quick interaction w
 
 The tool includes a number of skins to enable various BAT brands to be representing; depending on the particular event.
 
-<img alt="BAT Survey Tool" src="{{ site.prepend_assetsurl }}2013/07/BAT01.png" width="700" height="423">
+<img alt="BAT Survey Tool" src="{{ site.assetsurl }}2013/07/BAT01.png" width="700" height="423">
 <!--more-->
 {% include news-share-download.html %}

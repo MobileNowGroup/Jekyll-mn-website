@@ -14,6 +14,6 @@ What once was only available on the web is now accessible via a dedicated Simpli
 
 心随境开 features more than 200 location and events, maps, recommended itineraries, travelers will find all they need on their phone while enjoying the sights and sounds of Victoria. Active travelers don't need to travel alone either, as they can share their locations and pictures with their friends via WeChat, Weibo, and QQ Zone.
 
-<img alt="心随境开" src="{{ site.prepend_assetsurl }}2013/10/TV-slider2.png" width="600" height="362">
+<img alt="心随境开" src="{{ site.assetsurl }}2013/10/TV-slider2.png" width="600" height="362">
 <!--more-->
 {% include news-share-download.html %}

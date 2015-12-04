@@ -13,18 +13,18 @@ socialShareText: "Dove+Go+Play"
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 1000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 12; ">
-      <img src="{{ site.prepend_assetsurl }}2014/10/dove_back.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/10/dove_img1_mac.png" style="position: absolute; top: 0px; left: -1px; slidedirection : bottom; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 200; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/10/dove_img1_mobile.png" style="position: absolute; top: -22px; left: -1px; slidedirection : top; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 4500; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/10/dove_img1_text.png" style="position: absolute; top: 0px; left: -1px; slidedirection : bottom; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 100; delayout : 300; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2014/10/dove_back.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/10/dove_img1_mac.png" style="position: absolute; top: 0px; left: -1px; slidedirection : bottom; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 200; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/10/dove_img1_mobile.png" style="position: absolute; top: -22px; left: -1px; slidedirection : top; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 4500; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/10/dove_img1_text.png" style="position: absolute; top: 0px; left: -1px; slidedirection : bottom; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 100; delayout : 300; showuntil : 0; ">
     </div>
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 1000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 12; ">
-      <img src="{{ site.prepend_assetsurl }}2014/10/dove_back.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/10/dove_img1_mobile3.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 100; delayout : 300; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/10/dove_img1_mobile2.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 200; delayout : 100; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/10/dove_img1_mobile1.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 4500; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/10/dove_img2_text.png" style="position: absolute; top: 15px; left: -17px; slidedirection : left; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 100; delayout : 4500; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2014/10/dove_back.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/10/dove_img1_mobile3.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 100; delayout : 300; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/10/dove_img1_mobile2.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 200; delayout : 100; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/10/dove_img1_mobile1.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 4500; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/10/dove_img2_text.png" style="position: absolute; top: 15px; left: -17px; slidedirection : left; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 100; delayout : 4500; showuntil : 0; ">
     </div>
   </div>
 </div>

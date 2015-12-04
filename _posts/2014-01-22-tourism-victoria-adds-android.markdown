@@ -14,6 +14,6 @@ Mobile Now has completed an Android variant of the popular destination app 心�
 
 Complementing the iOS version, 心随境开 features the same 200+ location and events, maps, recommended itineraries, allowing Mainland visitors to enjoy everything Victoria has to offer.
 
-<img alt="Tourism Victoria adds Android" src="{{ site.prepend_assetsurl }}2014/04/Tourism-Victoria-adds-Android1-618x1030.png" width="309" height="515">
+<img alt="Tourism Victoria adds Android" src="{{ site.assetsurl }}2014/04/Tourism-Victoria-adds-Android1-618x1030.png" width="309" height="515">
 <!--more-->
 {% include news-share-download.html %}

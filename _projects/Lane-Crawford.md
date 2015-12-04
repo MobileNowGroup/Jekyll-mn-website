@@ -13,18 +13,18 @@ socialShareText: "Lane+Crawford"
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 1000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
-      <img src="{{ site.prepend_assetsurl }}2015/02/background.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/handphone.png"  style="position: absolute; top: 49px; left: 538px; slidedirection : right; slideoutdirection : left;  durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/map1.png" style="position: absolute; top: 70px; left: 297px; slidedirection : left; slideoutdirection : right;  durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/stores.png" style="position: absolute; top: 189px; left: 297px; slidedirection : left; slideoutdirection : right;  durationin : 500; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/text22.png" style="position: absolute; top: 134px; left: 862px; slidedirection : right; slideoutdirection : right;  durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 600; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2015/02/background.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/handphone.png"  style="position: absolute; top: 49px; left: 538px; slidedirection : right; slideoutdirection : left;  durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/map1.png" style="position: absolute; top: 70px; left: 297px; slidedirection : left; slideoutdirection : right;  durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/stores.png" style="position: absolute; top: 189px; left: 297px; slidedirection : left; slideoutdirection : right;  durationin : 500; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/text22.png" style="position: absolute; top: 134px; left: 862px; slidedirection : right; slideoutdirection : right;  durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 600; delayout : 0; showuntil : 0; ">
     </div>
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: all; ">
-      <img src="{{ site.prepend_assetsurl }}2015/02/background1.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/text11.png" style="position: absolute; top: 242px; left: 171px; slidedirection : left; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/cms.png" style="position: absolute; top: 107px; left: 630px; slidedirection : right; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/iphone21.png" style="position: absolute; top: 226px; left: 624px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2015/02/background1.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/text11.png" style="position: absolute; top: 242px; left: 171px; slidedirection : left; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/cms.png" style="position: absolute; top: 107px; left: 630px; slidedirection : right; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/iphone21.png" style="position: absolute; top: 226px; left: 624px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0; showuntil : 0; ">
     </div>
   </div>
 </div>

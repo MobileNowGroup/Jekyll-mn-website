@@ -13,13 +13,13 @@ socialShareText: "MBS+Fortune%2C+Shake+%26+Win"
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 1000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 12; ">
-      <img src="{{ site.prepend_assetsurl }}2015/02/back.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/nexus.png" style="position: absolute; top: 1px; left: 0px; slidedirection : bottom; slideoutdirection : left; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/shake.png" style="position: absolute; top: 0px; left: 0px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 100; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/goat.png" style="position: absolute; top: 0px; left: 0px; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 4500; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/iphone.png" style="position: absolute; top: 0px; left: 0px; slidedirection : top; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/text1.png" style="position: absolute; top: 0px; left: -1px; slidedirection : top; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 600; delayout : 4500; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/text2.png" style="position: absolute; top: 0px; left: -1px; slidedirection : top; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 700; delayout : 4500; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2015/02/back.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/nexus.png" style="position: absolute; top: 1px; left: 0px; slidedirection : bottom; slideoutdirection : left; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/shake.png" style="position: absolute; top: 0px; left: 0px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 100; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/goat.png" style="position: absolute; top: 0px; left: 0px; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 4500; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/iphone.png" style="position: absolute; top: 0px; left: 0px; slidedirection : top; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/text1.png" style="position: absolute; top: 0px; left: -1px; slidedirection : top; slideoutdirection : right; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 600; delayout : 4500; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/text2.png" style="position: absolute; top: 0px; left: -1px; slidedirection : top; slideoutdirection : left; durationin : 400; durationout : 400; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 700; delayout : 4500; showuntil : 0; ">
     </div>
   </div>
 </div>
@@ -47,7 +47,7 @@ Launched in lead up to spring festival, available in both Simplified Chinese and
 
 Scan the QR code with your Wechat to start playing the game:
 
-<img alt="MBSqrcode" src="{{ site.prepend_assetsurl }}2015/02/MBSqrcode.png" width="168" height="168">
+<img alt="MBSqrcode" src="{{ site.assetsurl }}2015/02/MBSqrcode.png" width="168" height="168">
 
 </div>
 

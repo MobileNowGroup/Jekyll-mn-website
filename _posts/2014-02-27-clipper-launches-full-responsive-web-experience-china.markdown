@@ -10,6 +10,6 @@ Mobile Now has just completed a full responsive website for Clipper China. [clip
 
 The iconic Catalan brand wanting to launch a dedicated site for Chinese consumers, highlighting both it's rich history and wide portfolio of products.
 
-<img alt="clipper.cn" src="{{ site.prepend_assetsurl }}2014/04/clipper.cn_-1030x465.png" width="515" height="232">
+<img alt="clipper.cn" src="{{ site.assetsurl }}2014/04/clipper.cn_-1030x465.png" width="515" height="232">
 <!--more-->
 {% include news-share-download.html %}

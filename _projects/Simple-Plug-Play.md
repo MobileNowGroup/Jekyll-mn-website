@@ -14,30 +14,30 @@ pdfDownload: "2014/03/SPP_Intro_v3.21.pdf"
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInBack; easingout: easeInBack; delayin: 0; delayout: 0; timeshift: 0; transition2d: 73; ">
-      <img src="{{ site.prepend_assetsurl }}2014/01/BG-11.jpg" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/BG-10.jpg" style="position: absolute; top: 0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 1000; durationout : 0; easingin : easeInQuint; easingout : easeInOutQuint; delayin : 0; delayout : 3000; scalein : 2.0; scaleout : 2.0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/iPad1.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : swing; easingout : swing; delayin : 650; delayout : 1000; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/Title1.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 500; easingin : easeOutCirc; easingout : easeInOutQuint; delayin : 650; delayout : 600; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/Text11.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 200; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 700; delayout : 300; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/Text12.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 100; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 1000; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2014/01/BG-11.jpg" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/BG-10.jpg" style="position: absolute; top: 0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 1000; durationout : 0; easingin : easeInQuint; easingout : easeInOutQuint; delayin : 0; delayout : 3000; scalein : 2.0; scaleout : 2.0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/iPad1.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : swing; easingout : swing; delayin : 650; delayout : 1000; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/Title1.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 500; easingin : easeOutCirc; easingout : easeInOutQuint; delayin : 650; delayout : 600; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/Text11.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 200; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 700; delayout : 300; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/Text12.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 100; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 1000; delayout : 0; showuntil : 0; ">
     </div>
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInBack; easingout: easeInBack; delayin: 0; delayout: 0; timeshift: 0; transition2d: 73; ">
-      <img src="{{ site.prepend_assetsurl }}2014/01/BG-20.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/BG-21.png" style="position: absolute; top: 0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 1000; durationout : 500; easingin : easeInOutCubic; easingout : easeInOutCubic; delayin : 0; delayout : 0; scalein : 2.0; scaleout : 2.0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/iPad21.png" style="position: absolute; top: 0px; left: 0px; slidedirection : top; slideoutdirection : top; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : swing; delayin : 700; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/iPad22.png" style="position: absolute; top: 0px; left: 0px; slidedirection : bottom; slideoutdirection : bottom; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeOutQuad; delayin : 800; delayout : 300; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/Title2.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeInOutQuad; delayin : 800; delayout : 600; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/Text21.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : swing; easingout : swing; delayin : 1000; delayout : 900; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2014/01/BG-20.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/BG-21.png" style="position: absolute; top: 0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 1000; durationout : 500; easingin : easeInOutCubic; easingout : easeInOutCubic; delayin : 0; delayout : 0; scalein : 2.0; scaleout : 2.0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/iPad21.png" style="position: absolute; top: 0px; left: 0px; slidedirection : top; slideoutdirection : top; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : swing; delayin : 700; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/iPad22.png" style="position: absolute; top: 0px; left: 0px; slidedirection : bottom; slideoutdirection : bottom; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeOutQuad; delayin : 800; delayout : 300; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/Title2.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeInOutQuad; delayin : 800; delayout : 600; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/Text21.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : swing; easingout : swing; delayin : 1000; delayout : 900; showuntil : 0; ">
     </div>
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 73; ">
-      <img src="{{ site.prepend_assetsurl }}2014/01/BG-20.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/BG-21.png" style="position: absolute; top: 0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 1000; durationout : 500; easingin : easeInOutCubic; easingout : easeInOutCubic; delayin : 0; delayout : 0; scalein : 2.0; scaleout : 2.0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/iPad31.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeInOutQuad; delayin : 700; delayout : 1000; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/iPad32.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeOutQuad; delayin : 900; delayout : 700; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/Title3.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeInOutQuad; delayin : 800; delayout : 500; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/01/Text31.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeOutQuad; delayin : 1000; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2014/01/BG-20.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/BG-21.png" style="position: absolute; top: 0px; left: 0px; slidedirection : fade; slideoutdirection : fade; durationin : 1000; durationout : 500; easingin : easeInOutCubic; easingout : easeInOutCubic; delayin : 0; delayout : 0; scalein : 2.0; scaleout : 2.0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/iPad31.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeInOutQuad; delayin : 700; delayout : 1000; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/iPad32.png" style="position: absolute; top: 0px; left: 0px; slidedirection : left; slideoutdirection : left; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeOutQuad; delayin : 900; delayout : 700; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/Title3.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeInOutQuad; delayin : 800; delayout : 500; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/01/Text31.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : right; durationin : 500; durationout : 500; easingin : easeInOutQuad; easingout : easeOutQuad; delayin : 1000; delayout : 0; showuntil : 0; ">
     </div>
   </div>
 </div>
@@ -71,10 +71,10 @@ Coming soon
 
 <link href="http://vjs.zencdn.net/4.4/video-js.css" rel="stylesheet" />
 <script type="text/javascript" src="http://vjs.zencdn.net/4.4/video.js"></script>
-<video class="video-js vjs-default-skin" controls="controls" preload="auto" width="618" height="400" poster="{{ site.prepend_assetsurl }}2014/04/SSPthumbnail.jpg" data-setup="{}">
-  <source src="{{ site.prepend_assetsurl }}videos/spp.mp4" type="video/mp4" ></source>
-  <source src="{{ site.prepend_assetsurl }}videos/spp.webm" type="video/webm" ></source>
-  <source src="{{ site.prepend_assetsurl }}videos/spp.ogv" type="video/ogg" ></source>
+<video class="video-js vjs-default-skin" controls="controls" preload="auto" width="618" height="400" poster="{{ site.assetsurl }}2014/04/SSPthumbnail.jpg" data-setup="{}">
+  <source src="{{ site.assetsurl }}videos/spp.mp4" type="video/mp4" ></source>
+  <source src="{{ site.assetsurl }}videos/spp.webm" type="video/webm" ></source>
+  <source src="{{ site.assetsurl }}videos/spp.ogv" type="video/ogg" ></source>
 </video>
 
 </div>

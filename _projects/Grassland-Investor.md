@@ -13,17 +13,17 @@ socialShareText: "Grassland+Finance"
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 1000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
-      <img src="{{ site.prepend_assetsurl }}2015/02/g2_back.jpg" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/g2_computer.png" style="position: absolute; top: 0px; left: 0px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/g2_ipad1.png" style="position: absolute; top: 0px; left: 1px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/g2_iphone.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : left; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1"  src="{{ site.prepend_assetsurl }}2015/03/g2_text2.png" style="position: absolute; top: 12px; left: -5px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2015/02/g2_back.jpg" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/g2_computer.png" style="position: absolute; top: 0px; left: 0px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 500; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/g2_ipad1.png" style="position: absolute; top: 0px; left: 1px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 400; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/g2_iphone.png" style="position: absolute; top: 0px; left: 0px; slidedirection : right; slideoutdirection : left; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1"  src="{{ site.assetsurl }}2015/03/g2_text2.png" style="position: absolute; top: 12px; left: -5px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
     </div>
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 1000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
-      <img src="{{ site.prepend_assetsurl }}2015/02/g2_back.jpg" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/02/g2_computer2.png"  style="position: absolute; top: -1px; left: -1px; slidedirection : right; slideoutdirection : left; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2015/03/g2_text.png" style="position: absolute; top: 8px; left: 2px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2015/02/g2_back.jpg" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/02/g2_computer2.png"  style="position: absolute; top: -1px; left: -1px; slidedirection : right; slideoutdirection : left; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 300; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2015/03/g2_text.png" style="position: absolute; top: 8px; left: 2px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
     </div>
   </div>
 </div>

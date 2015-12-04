@@ -14,6 +14,6 @@ _Dove Go Play_ helps educate users, encouraging them to learn to play with their
 
 Everyday, ten lucky users are selected that manage to style their hair closest to the model; with one overall winner featured in the December 2014 issue of _Marie Claire_.
 
-<img alt="Dove go play" src="{{ site.prepend_assetsurl }}2014/10/dove_cover.png" width="342" height="276">
+<img alt="Dove go play" src="{{ site.assetsurl }}2014/10/dove_cover.png" width="342" height="276">
 <!--more-->
 {% include news-share-download.html %}

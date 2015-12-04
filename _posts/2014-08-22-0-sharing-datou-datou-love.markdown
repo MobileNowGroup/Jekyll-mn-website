@@ -12,6 +12,6 @@ After two years and more than two million downloads, the chart topping, photo sh
 
 Now all the fun features of creating photo collages and funny gifs, as well as  applying cool filters are  available to a wider audience around the world.
 
-<img alt="Datou Datou love" src="{{ site.prepend_assetsurl }}2014/09/DatouENfornews.jpg" width="700" height="321">
+<img alt="Datou Datou love" src="{{ site.assetsurl }}2014/09/DatouENfornews.jpg" width="700" height="321">
 <!--more-->
 {% include news-share-download.html %}

@@ -12,6 +12,6 @@ In the piece, Co-Founder Thomas Meyer talks through the decision to open a secon
 
 Check out the full article here: <http://www.cbnweek.com/v/article?id=6778>
 
-<img alt="Don’t call me a Laowai, call me an entrepreneur" src="{{ site.prepend_assetsurl }}2014/04/Don’t-call-me-a-Laowai-call-me-an-entrepreneur.jpg" width="710" height="420">
+<img alt="Don’t call me a Laowai, call me an entrepreneur" src="{{ site.assetsurl }}2014/04/Don’t-call-me-a-Laowai-call-me-an-entrepreneur.jpg" width="710" height="420">
 <!--more-->
 {% include news-share-download.html %}

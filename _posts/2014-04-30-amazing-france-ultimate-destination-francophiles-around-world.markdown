@@ -16,6 +16,6 @@ Unique privileges and services have been selected and prepared for users through
 
 To further enable the 'L'Art de vivre à la Française', a guide is included on how users can 'buy French' in their home countries.
 
-<img alt="" src="{{ site.prepend_assetsurl }}2014/05/thumbnail.png" width="684" height="552">
+<img alt="" src="{{ site.assetsurl }}2014/05/thumbnail.png" width="684" height="552">
 <!--more-->
 {% include news-share-download.html %}

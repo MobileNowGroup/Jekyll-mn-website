@@ -13,24 +13,24 @@ socialShareText: "Michael+Kors"
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 800; durationout: 800; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
-      <img src="{{ site.prepend_assetsurl }}2014/05/Mk360-01-bg.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat01-logo.png" style="position: absolute; top: 20px; left: 20px; durationin : 1100; durationout : 1100; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat01-text.png" style="position: absolute; top: 20px; left: 20px; durationin : 1200; durationout : 1200; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat01-phone.png" style="position: absolute; top: 20px; left: 20px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2014/05/Mk360-01-bg.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat01-logo.png" style="position: absolute; top: 20px; left: 20px; durationin : 1100; durationout : 1100; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat01-text.png" style="position: absolute; top: 20px; left: 20px; durationin : 1200; durationout : 1200; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat01-phone.png" style="position: absolute; top: 20px; left: 20px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
     </div>
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 800; durationout: 800; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
-      <img src="{{ site.prepend_assetsurl }}2014/05/Mk360-01-bg.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat01-logo.png" style="position: absolute; top: 20px; left: 20px; durationin : 1100; durationout : 1100; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat02-text.png" style="position: absolute; top: 20px; left: 20px; durationin : 1200; durationout : 1200; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat02-phone.png" style="position: absolute; top: 20px; left: 20px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2014/05/Mk360-01-bg.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat01-logo.png" style="position: absolute; top: 20px; left: 20px; durationin : 1100; durationout : 1100; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat02-text.png" style="position: absolute; top: 20px; left: 20px; durationin : 1200; durationout : 1200; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat02-phone.png" style="position: absolute; top: 20px; left: 20px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
     </div>
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 800; durationout: 800; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
-      <img src="{{ site.prepend_assetsurl }}2014/05/Mk360-01-bg.png" class="ls-bg" alt="Slide background">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat01-logo.png" style="position: absolute; top: 20px; left: 20px; durationin : 1100; durationout : 1100; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat03-text.png" style="position: absolute; top: 20px; left: 20px; durationin : 1200; durationout : 1200; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
-      <img class="ls-s-1" src="{{ site.prepend_assetsurl }}2014/05/wechat03-phone.png" style="position: absolute; top: 20px; left: 20px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img src="{{ site.assetsurl }}2014/05/Mk360-01-bg.png" class="ls-bg" alt="Slide background">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat01-logo.png" style="position: absolute; top: 20px; left: 20px; durationin : 1100; durationout : 1100; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat03-text.png" style="position: absolute; top: 20px; left: 20px; durationin : 1200; durationout : 1200; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2014/05/wechat03-phone.png" style="position: absolute; top: 20px; left: 20px; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
     </div>
   </div>
 </div>
