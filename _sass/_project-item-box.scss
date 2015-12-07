@@ -24,6 +24,7 @@
     height: 100%;
     background-color: white;
     opacity: 0;
+    @include mn-transition(opacity 0.4s);
     position: absolute;
     top: 0;
 
