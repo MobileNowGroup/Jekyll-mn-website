@@ -9,12 +9,12 @@ title: News
       {% for post in site.categories.news limit: 10 %}
       <div class="nothing-wrapper">
         <div class="nothing-icon">
-          <a href="{{ post.url }}"><span>✎</span></a>
+          <a href="{{ post.url | prepend: site.baseurl }}"><span>✎</span></a>
         </div>
       </div>
       <div class="post post-list">
         <header>
-          <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+          <h2><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a></h2>
           <div class="post-meta-infos">
             <span>{{ post.date | date_to_string }}</span>
             <span class="text-sep">/</span>
@@ -29,5 +29,5 @@ title: News
     </div>
   </div>
 
-  {% include archives-date.html %}
+  {% include archives-month-sidebar.html %}
 </div>
