@@ -1,5 +1,6 @@
 .grid-sort-container {
   @extend %clearfix;
+  .grid-image {opacity: 0;}
 }
 
 .grid-entry {
@@ -16,7 +17,6 @@
   display: block;
   width: 100%;
   position: relative;
-  opacity: 0;
 
   img {
     width: 100%;
