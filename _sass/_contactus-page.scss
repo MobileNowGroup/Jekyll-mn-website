@@ -25,6 +25,7 @@
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.7);
     opacity: 0;
+    @include mn-transition(opacity 0.4s);
     visibility: hidden;
     @extend .round_border;
 
