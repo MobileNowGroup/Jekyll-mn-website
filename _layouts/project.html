@@ -7,14 +7,14 @@ layout: default
 <div class="wrapper content">
   <h2 class="content-h2 with-bottom-line">Most Recent Entries</h2>
 
-  <div class="grid-sort-container no_margin-container isotope" data-portfolio-id="1">
+  <div class="grid-sort-container no_margin-container grid-col-4 isotope" data-portfolio-id="1">
 
     {% assign projects = site.projects | sort: 'order' %}
     {% for project in projects limit: 4 %}
 
     <div class="item grid-entry no_margin av_one_fourth flex_column"><div class="inner-entry">
       <a href="{{ site.baseurl }}/work/{{ project.link }}/" class="grid-image">
-        <img src="{{ site.assetsurl }}{{ project.image }}" width="495" height="400" alt="{{ project.projectTitle }}">
+        <img src="{{ site.assetsurl }}{{ project.image }}" width="260" height="185" alt="{{ project.projectTitle }}">
         <span class="image-overlay"></span>
       </a>
       <div class="grid-content">
@@ -30,3 +30,5 @@ layout: default
 </div>
 
 {% include layerslider-scripts.html %}
+<script src="{{ site.baseurl }}/js/isotope.js"></script>
+<script src="{{ site.baseurl }}/js/portfolio-sorting.js"></script>

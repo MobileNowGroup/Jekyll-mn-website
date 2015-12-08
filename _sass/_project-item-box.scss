@@ -4,6 +4,7 @@
 
 .grid-entry {
   float: left;
+  padding-bottom: 1px;
 
   .inner-entry {
     margin-right: 1px;
@@ -15,8 +16,12 @@
   display: block;
   width: 100%;
   position: relative;
+  opacity: 0;
 
-  img { height: auto; }
+  img {
+    width: 100%;
+    height: auto;
+  }
 
   span.image-overlay {
     display: block;
@@ -70,7 +75,6 @@
 
 .grid-content {
   position: relative;
-  margin-bottom: 1px;
   padding: 16px;
 
   .avia-arrow {
@@ -79,7 +83,10 @@
   }
 }
 
-.grid-entry-excerpt { font-weight: bold; }
+.grid-entry-excerpt {
+  font-weight: bold;
+  margin-bottom: -1px;
+}
 
 .target-device {
   display: inline-block;
@@ -104,4 +111,23 @@
   &.wechat {
     background: url("../assets/images/support_icons.png") -100px top no-repeat;
   }
+}
+
+/*different portfolio sizes*/
+.grid-col-4 .grid-image {height: 161px;}
+.grid-col-3 .grid-image {height: 249px;}
+
+@media only screen and (min-width: 1140px) {
+  .grid-col-4 .grid-image {height: 183px;}
+  .grid-col-3 .grid-image {height: 276px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+  .grid-col-4 .grid-image {height: 121px;}
+  .grid-col-3 .grid-image {height: 183px;}
+}
+
+@media only screen and (max-width: 767px) {
+  .grid-col-4 .grid-image,
+  .grid-col-3 .grid-image {height: auto;}
 }

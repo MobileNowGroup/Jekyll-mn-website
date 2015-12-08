@@ -45,6 +45,7 @@ $.fn.avia_iso_sort = ->
   return this.each ->
     container = $(this)
     links = $("#js_sort_item").find("a")
+    imgParent = container.find(".grid-image")
 
     applyIso = ->
       container.isotope(
@@ -74,6 +75,13 @@ $.fn.avia_iso_sort = ->
       )
 
       return false
+
+    $(window).on "load", ->
+      imgParent.css({height:"auto"}).each (i)->
+        currentLink = $(this)
+        setTimeout ->
+          currentLink.animate {opacity:1},1500
+        , (100 * i)
 
     # update columnWidth on window resize
     $(window).smartresize ->
