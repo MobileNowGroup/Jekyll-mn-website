@@ -10,7 +10,7 @@ link: "breeze-good-life-hk"
 socialShareText: "Breeze+Good+Life+HK"
 iosDownload: "https://itunes.apple.com/us/app/breeze-good-life-hong-kong/id507036219?mt=8"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: all; ">

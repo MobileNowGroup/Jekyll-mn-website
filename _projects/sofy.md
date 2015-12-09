@@ -12,7 +12,7 @@ iosDownload: "https://itunes.apple.com/cn/app/ai-wan-su-fei-tu/id875795508?mt=8"
 androidDownload: "http://apk.hiapk.com/appinfo/archiive.sofy/3"
 androidDownloadIcon: "2015/02/HiapkAndroidMarket.png"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 10000; durationin: 1000; durationout: 2000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">

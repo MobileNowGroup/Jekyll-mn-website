@@ -12,7 +12,7 @@ iosDownload: "https://itunes.apple.com/cn/app/kfc-wan-chu-wei-exo-m-edition/id94
 androidDownload: "http://android.myapp.com/myapp/detail.htm?apkName=com.yum.KFCEXO"
 androidDownloadIcon: "2015/01/badge_myapp.com_.png"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
     <div class="ls-layer" style="slidedirection: right; slidedelay: 3000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
       <img src="{{ site.assetsurl }}2015/01/bg.png" class="ls-bg" alt="Slide background">

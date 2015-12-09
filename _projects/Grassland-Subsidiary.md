@@ -9,7 +9,7 @@ image: "2015/02/grassland_subsidiary_thumbnail2-495x400.jpg"
 link: "grassland-subsidiary"
 socialShareText: "Grassland+Subsidiary"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 1000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">

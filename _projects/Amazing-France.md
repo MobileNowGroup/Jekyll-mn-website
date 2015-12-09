@@ -10,7 +10,7 @@ link: "amazing-france"
 socialShareText: "Amazing+France"
 iosDownload: "https://itunes.apple.com/app/id807369592"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">

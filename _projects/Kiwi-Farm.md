@@ -10,7 +10,7 @@ link: "zespri-kiwi-farm"
 socialShareText: "ZESPRI+KIWI+FARM"
 iosDownload: "https://itunes.apple.com/app/kiwi-farm/id543467233?ls=1&amp;mt=8"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 3000; durationin: 1500; durationout: 1500; easingin: easeInOutQuad; easingout: easeInOutQuad; delayin: 0; delayout: 0; ">

@@ -9,7 +9,7 @@ image: "2013/12/MBS_thumbnail-495x400.png"
 link: "marina-bay-sands-wechat-game"
 socialShareText: "MBS+Fortune%2C+Shake+%26+Win"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 1000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 12; ">

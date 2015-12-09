@@ -12,7 +12,7 @@ iosDownload: "https://itunes.apple.com/us/app/paxifi-stores-on-wheels/id94238988
 androidDownload: "https://play.google.com/store/apps/details?id=com.mobilenow.paxifi"
 androidDownloadIcon: "2013/12/badge_android.png"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 0; durationin: 2000; durationout: 2000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">

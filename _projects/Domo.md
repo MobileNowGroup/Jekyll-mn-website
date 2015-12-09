@@ -10,7 +10,7 @@ link: "domo"
 socialShareText: "DOMO"
 iosDownload: "https://itunes.apple.com/us/app/domo-the-journey/id561636505?mt=8"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
   <div class="ls-layer" style="slidedirection: right; slidedelay: 3000; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">

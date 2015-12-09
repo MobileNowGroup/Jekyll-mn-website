@@ -12,7 +12,7 @@ iosDownload: "https://itunes.apple.com/cn/app/xin-sui-jing-kai-mo-er-ben/id71547
 androidDownload: "https://play.google.com/store/apps/details?id=cn.com.tourismvictoria.melbourne"
 androidDownloadIcon: "2013/12/badge_android.png"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; timeshift: 0; transition2d: 24; ">

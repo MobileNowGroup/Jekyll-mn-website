@@ -10,7 +10,7 @@ link: "breeze-living"
 socialShareText: "Breeze+Living+China"
 iosDownload: "http://itunes.apple.com/us/app/breeze-living/id419051616?mt=8"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 0; durationin: 1000; durationout: 1000; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">

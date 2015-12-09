@@ -9,7 +9,7 @@ image: "2014/05/Michael-Kors-WechatThumbnail.jpg"
 link: "michael-kors-wechat"
 socialShareText: "Michael+Kors"
 ---
-<div class="avia-layerslider">
+<div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
     <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 800; durationout: 800; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
