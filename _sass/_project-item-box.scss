@@ -53,7 +53,9 @@
   }
 }
 
-/*pop small animation*/
+/**
+* Mouseover popup-rotate effect
+*/
 @-webkit-keyframes avia_pop_small {
   0%   { -webkit-transform: rotate(-175deg) scale(0.2); }
   75%  { -webkit-transform: rotate(10deg) scale(1.05); }
@@ -72,6 +74,29 @@
     animation:         avia_pop_small 0.5s 1;
   }
 }
+
+
+/**
+* Preset project box height
+*/
+.grid-col-4 .grid-image {height: 161px;}
+.grid-col-3 .grid-image {height: 249px;}
+
+@include media-query-min($desktop-large) {
+  .grid-col-4 .grid-image {height: 183px;}
+  .grid-col-3 .grid-image {height: 276px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+  .grid-col-4 .grid-image {height: 121px;}
+  .grid-col-3 .grid-image {height: 183px;}
+}
+
+@include media-query-max($on-mobile) {
+  .grid-col-4 .grid-image,
+  .grid-col-3 .grid-image {height: auto;}
+}
+
 
 .grid-content {
   position: relative;
@@ -111,23 +136,4 @@
   &.wechat {
     background: url("../assets/images/support_icons.png") -100px top no-repeat;
   }
-}
-
-/*different portfolio sizes*/
-.grid-col-4 .grid-image {height: 161px;}
-.grid-col-3 .grid-image {height: 249px;}
-
-@media only screen and (min-width: 1140px) {
-  .grid-col-4 .grid-image {height: 183px;}
-  .grid-col-3 .grid-image {height: 276px;}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 989px) {
-  .grid-col-4 .grid-image {height: 121px;}
-  .grid-col-3 .grid-image {height: 183px;}
-}
-
-@media only screen and (max-width: 767px) {
-  .grid-col-4 .grid-image,
-  .grid-col-3 .grid-image {height: auto;}
 }
