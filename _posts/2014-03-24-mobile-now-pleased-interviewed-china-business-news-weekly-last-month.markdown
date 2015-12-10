@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Mobile Now were pleased to be interviewed by China Business News Weekly last month"
 author: admin
 categories: News

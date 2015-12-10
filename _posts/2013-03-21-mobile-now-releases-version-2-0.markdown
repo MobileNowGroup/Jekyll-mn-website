@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Mobile Now releases version 2.0 of 大头大头贴 with improved UX and new UI"
 author: admin
 categories: News

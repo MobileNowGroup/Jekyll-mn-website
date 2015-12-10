@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Amazing France the ultimate destination for Francophiles around the world"
 author: admin
 categories: News

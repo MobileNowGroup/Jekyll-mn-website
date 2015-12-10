@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Lane Crawford creates social, shopping experience on WeChat"
 author: admin
 categories: News

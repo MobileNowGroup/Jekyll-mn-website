@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Flex your fingers with Fanta FunTap and let the tapping begin. Tap! Tap! Tap!"
 author: admin
 categories: News

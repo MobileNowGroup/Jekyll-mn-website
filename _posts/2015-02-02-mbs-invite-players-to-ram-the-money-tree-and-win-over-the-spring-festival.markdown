@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "MBS invite players, to ram the money tree and win, over the spring festival"
 author: admin
 categories: News

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Saatchi & Saatchi 2014 Creative Technology Night"
 author: admin
 categories: News

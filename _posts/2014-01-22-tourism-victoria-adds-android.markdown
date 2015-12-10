@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Tourism Victoria adds Android"
 author: admin
 categories: News

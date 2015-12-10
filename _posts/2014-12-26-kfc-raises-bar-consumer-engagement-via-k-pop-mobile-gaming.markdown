@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "KFC raises the bar on consumer engagement, via K-pop and mobile gaming"
 author: admin
 categories: News

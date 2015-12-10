@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Pingz launch innovative LBS platform for retailers"
 author: admin
 categories: News

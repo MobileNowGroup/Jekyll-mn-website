@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "H&M opt for responsive to showcase their new spring and summer ‘Divided’ collection"
 author: admin
 categories: News

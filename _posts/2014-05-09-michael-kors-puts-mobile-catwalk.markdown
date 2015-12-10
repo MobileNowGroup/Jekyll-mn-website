@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Michael Kors puts mobile on the catwalk"
 author: admin
 categories: News

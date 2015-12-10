@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Mobile Now featured in Tech in Shanghai podcast"
 author: admin
 categories: News

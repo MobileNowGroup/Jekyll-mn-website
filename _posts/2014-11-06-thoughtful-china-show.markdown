@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Mobile Now join Thoughtful China’s show on ‘Why advertisers in China don’t get online gaming"
 author: admin
 categories: News

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "HOSTESS CLUB WEEKENDER"
 author: admin
 categories: News

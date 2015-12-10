@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Tourism Victoria woos Chinese tourists with dedicated app"
 author: admin
 categories: News

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Simple Plug & Play empowers financial services players to make compelling client presentations"
 author: admin
 categories: News

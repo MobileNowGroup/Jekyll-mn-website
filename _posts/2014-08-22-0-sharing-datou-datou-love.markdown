@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Sharing the Datou Datou love"
 author: admin
 categories: News

@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Sofy enhances existing companion app with fun game to further engage young females"
 author: admin
 categories: News

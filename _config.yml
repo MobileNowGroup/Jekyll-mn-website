@@ -28,3 +28,7 @@ defaults:
       type: projects
     values:
       layout: project
+  - scope:
+      type: posts
+    values:
+      layout: post

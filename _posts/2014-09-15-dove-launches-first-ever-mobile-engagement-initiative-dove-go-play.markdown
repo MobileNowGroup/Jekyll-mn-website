@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Dove launches first ever mobile engagement initiative – Dove Go Play"
 author: admin
 categories: News

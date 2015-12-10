@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Clipper launches full responsive web experience in China"
 author: admin
 categories: News

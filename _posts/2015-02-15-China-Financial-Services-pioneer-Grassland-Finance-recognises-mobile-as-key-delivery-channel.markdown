@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "China Financial Services pioneer Grassland Finance recognises mobile as key delivery channel"
 author: admin
 categories: News

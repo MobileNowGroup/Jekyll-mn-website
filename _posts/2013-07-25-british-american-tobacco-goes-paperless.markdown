@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "British American Tobacco goes paperless"
 author: admin
 categories: News
