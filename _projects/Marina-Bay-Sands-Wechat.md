@@ -1,7 +1,7 @@
 ---
 title: MBS Fortune, Shake & Win
 permalink: /work/marina-bay-sands-wechat-game/
-order: 10
+order: 37
 projectTitle: "MBS Fortune, Shake & Win"
 support: "wechat"
 category: "games_sort"

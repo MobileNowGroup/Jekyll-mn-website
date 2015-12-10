@@ -1,7 +1,7 @@
 ---
 title: Breeze Good Life HK
 permalink: /work/breeze-good-life-hk/
-order: 21
+order: 26
 projectTitle: "Breeze Good Life HK"
 support: "ios"
 category: "finance_sort"

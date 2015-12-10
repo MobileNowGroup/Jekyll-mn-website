@@ -1,7 +1,7 @@
 ---
 title: SP&P
 permalink: /work/sp_p/
-order: 17
+order: 30
 projectTitle: "Simple Plug & Play"
 support: "universal"
 category: "finance_sort"

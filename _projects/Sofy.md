@@ -1,7 +1,7 @@
 ---
 title: 爱玩苏菲兔
 permalink: /work/sofy/
-order: 5
+order: 42
 projectTitle: "爱玩苏菲兔"
 support: "universal"
 category: "games_sort"

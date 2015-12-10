@@ -30,7 +30,7 @@ permalink: /work/
 
   <div class="grid-sort-container no_margin-container grid-col-3 isotope">
 
-    {% assign projects = site.projects | sort: "order" %}
+    {% assign projects = site.projects | sort: "order" | reverse %}
     {% for project in projects %}
     <div class="item grid-entry no_margin col-one-third flex_column all_sort {{ project.category }}"><div class="inner-entry">
       <a href="{{ site.baseurl }}/work/{{ project.link }}/" class="grid-image">

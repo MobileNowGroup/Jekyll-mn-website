@@ -1,7 +1,7 @@
 ---
 title: DOMO
 permalink: /work/domo/
-order: 19
+order: 28
 projectTitle: "Domo: the Journey"
 support: "ios"
 category: "games_sort"

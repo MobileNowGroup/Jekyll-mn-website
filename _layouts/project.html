@@ -9,7 +9,7 @@ layout: default
 
   <div class="grid-sort-container no_margin-container grid-col-4 isotope" data-portfolio-id="1">
 
-    {% assign projects = site.projects | sort: 'order' %}
+    {% assign projects = site.projects | sort: 'order' | reverse %}
     {% for project in projects limit: 4 %}
 
     <div class="item grid-entry no_margin av_one_fourth flex_column"><div class="inner-entry">

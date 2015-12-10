@@ -1,7 +1,7 @@
 ---
 title: Grassland Finance
 permalink: /work/grassland-finance/
-order: 6
+order: 41
 projectTitle: "Grassland Investor"
 support: "html5"
 category: "finance_sort"

@@ -1,7 +1,7 @@
 ---
 title: KFC玩出味 • EXO-M Edition
 permalink: /work/kfc-exo-m-玩出味/
-order: 1
+order: 46
 projectTitle: "KFC EXO-M"
 support: "universal"
 category: "fb_sort games_sort"

@@ -1,7 +1,7 @@
 ---
 title: Clipper.cn
 permalink: /work/clipper-cn/
-order: 18
+order: 29
 projectTitle: "Clipper.cn"
 support: "html5"
 category: "lifestyle_sort"

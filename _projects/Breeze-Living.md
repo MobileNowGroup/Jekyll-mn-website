@@ -1,7 +1,7 @@
 ---
 title: Breeze Living China
 permalink: /work/breeze-living/
-order: 34
+order: 7
 projectTitle: "Breeze Living China"
 support: "ios"
 category: "finance_sort"

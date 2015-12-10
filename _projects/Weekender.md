@@ -1,7 +1,7 @@
 ---
 title: Hostess Club Weekender
 permalink: /work/hostess-club-weekender/
-order: 16
+order: 31
 projectTitle: "Weekender"
 support: "universal"
 category: "lifestyle_sort"

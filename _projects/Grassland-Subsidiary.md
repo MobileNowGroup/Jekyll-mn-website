@@ -1,7 +1,7 @@
 ---
 title: Grassland Subsidiary
 permalink: /work/grassland-subsidiary/
-order: 7
+order: 40
 projectTitle: "Grassland Subsidiary"
 support: "html5"
 category: "finance_sort"

@@ -1,7 +1,7 @@
 ---
 title: Fanta FunTap
 permalink: /work/fanta/
-order: 11
+order: 36
 projectTitle: "Fanta FunTap"
 support: "universal"
 category: "fb_sort games_sort"

@@ -1,7 +1,7 @@
 ---
 title: Dove Go Play
 permalink: /work/dove-go-play/
-order: 12
+order: 35
 projectTitle: "Dove Go Play"
 support: "html5"
 category: "lifestyle_sort"

@@ -1,7 +1,7 @@
 ---
 title: Homes-Up
 permalink: /work/homes-up/
-order: 22
+order: 25
 projectTitle: "Homes-Up"
 support: "ios"
 category: "retail_sort"

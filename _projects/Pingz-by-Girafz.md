@@ -1,7 +1,7 @@
 ---
 title: Pingz by Girafz
 permalink: /work/pingz/
-order: 13
+order: 34
 projectTitle: "Pingz by Girafz"
 support: "universal"
 category: "retail_sort"
