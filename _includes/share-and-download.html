@@ -37,7 +37,7 @@
     </ul>
   </div>
 
-  {% if page.iosDownload or page.androidDownload or page.pdfDownload %}
+  {% if page.iosDownload or page.androidDownload or page.pdfDownload or page.iPadDownload %}
 
   <div class="av_one_half flex_column">
     <h4>Download your own version:</h4>
@@ -45,6 +45,14 @@
     {% if page.iosDownload %}
 
     <a class="download-link" title="{{ page.title }}" href="{{ page.iosDownload }}" target="_blank">
+      <img src="{{ site.assetsurl }}2013/12/badge_ios.png" width="134" height="36" alt="badge_ios">
+    </a>
+
+    {% endif %}
+
+    {% if page.iPadDownload %}
+
+    <a class="download-link" title="{{ page.title }} iPad app" href="{{ page.iPadDownload }}" target="_blank">
       <img src="{{ site.assetsurl }}2013/12/badge_ios.png" width="134" height="36" alt="badge_ios">
     </a>
 
