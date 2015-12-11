@@ -43,6 +43,12 @@
   .post-category {
     text-transform: capitalize;
   }
+  .post-category, .post-author {
+    color: $text-color;
+    &:hover {
+      color: $brand-color-dark;
+    }
+  }
 }
 
 .pagination {
@@ -91,5 +97,8 @@
     color: $text-color;
     display: block;
     margin-bottom: 3px;
+    &:hover {
+      color: $brand-color-dark;
+    }
   }
 }
