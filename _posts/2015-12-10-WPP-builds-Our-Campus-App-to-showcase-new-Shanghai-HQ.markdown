@@ -5,9 +5,9 @@ categories: News
 permalink: /WPP-builds-Our-Campus-App-to-showcase-new-Shanghai-HQ/
 socialShareText: "WPP builds Our Campus App to showcase new Shanghai HQ"
 ---
-WPP has launched their Our Campus app to provide guidance, information and benefits to both staff and visitors heading to their new location in Shanghai.
+WPP has launched their _Our Campus_ app to provide guidance, information and benefits to both staff and visitors heading to their new location in Shanghai.
 
-Whether it's the best directions on getting to Hengfeng Rd, or navigating to the right floor on arrival, Our Campus has it covered.
+Whether it's the best directions on getting to Hengfeng Rd, or navigating to the right floor on arrival, _Our Campus_ has it covered.
 
 Introductions to the respective WPP companies are also included, leveraging iBeacon technology so that they are made available at the most geographic appropriate time.
 
