@@ -1,2 +1,5 @@
 .sass-cache
 .post-project-template
+
+# iOS
+.DS_Store
