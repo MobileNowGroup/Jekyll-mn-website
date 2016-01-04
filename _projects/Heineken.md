@@ -1,15 +1,15 @@
 ---
 title: Heineken Green Room
-permalink: /work/heineken/
+permalink: /work/heineken-green-room/
 order: 48
 projectTitle: "Heineken Green Room"
 support: "universal"
-category: "b2b_sort"
-image: "2015/12/WPP-Thumbnail.png"
-link: "heineken"
+category: "fb_sort"
+image: "2016/01/Heineken-Thumbnail.jpg"
+link: "heineken-green-room"
 socialShareText: "Heineken Green Room"
-iosDownload: "https://itunes.apple.com/app/apple-store/id1062505335?mt=8"
-androidDownload: "http://jwtshanghai.com/shareapp.html"
+iosDownload: "https://itunes.apple.com/us/app/heineken-green-room/id1015284949?ls=1&mt=8"
+androidDownload: "https://play.google.com/store/apps/details?id=com.mobilenow.hgr&hl=en"
 androidDownloadIcon: "2013/12/badge_android.png"
 ---
 <div class="avia-layerslider solid_bottom_border">
@@ -45,17 +45,17 @@ androidDownloadIcon: "2013/12/badge_android.png"
 
 #### Mission
 
-The Heineken project is a mobile app developed to engage users during the famed Heineken Green Room club events. It served as a key component for a large-scale campaign spanning five months across Asia Pacific and China. The opening event kicked-off August in Hong Kong, with events held every weekend.
-
-It featured interactions with a large orb display installation at each venue where users and event VFX artists beamed content to the orb as a new medium of interaction.
+Heineken wanted to include attendees of it's famed Green Room sessions around AP, in an Original Music Experiment to specifically understand how they saw music.
 
 #### Concept
 
-The campaign was themed off the concept of "seeing" music. Through numerous forms: whether it be visualizations of one's dance activity at an event, or engaging the crowds' opinion on which abstract visualizations best resonate with a certain music track, it introduces new ways of interacting with music, with the pleasant company of a Heineken brew no less.
+The event companion app, developed with Arcade Singapore, thus became the enabler of the experiment, allowing guests to 'see' music in numerous forms. Ranging from visualisations of one's dance activity at an event, based on iOS Healthkit and Google Fit data, through to engaging the crowds' opinion on which abstract visualizations best resonate with a certain music track. All these results are captured in personalised Data Selfie, allowing revelers to relive their night, the following morning.
+
+Additionally the app also allows party goes to interact with a large Orb display installation at each venue where users and VJs beam UGC directly to the Orb.
 
 #### Results
 
-The app introduced new ways of interacting with music at club events uniquely exclusive to the Heineken brand.
+The Original Sound Experiment will be rolling out at more than 20 events around AP in 2015 introduced new unique ways of interacting with music in the club environment.
 
 </div>
 
