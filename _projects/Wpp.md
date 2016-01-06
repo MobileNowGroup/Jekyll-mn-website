@@ -15,7 +15,59 @@ androidDownloadIcon: "2013/12/badge_android.png"
 <div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
 
-    
+    <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutSine; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_bg1.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_handphone1.png" style="position: absolute; top: px; left: px; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_logo3.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_words.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1150; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_icon11.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1250; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_icon21.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1400; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_icon31.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1650; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+    </div>
+
+    <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_bg2.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_2_logo.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_2_word.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1150; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_2_icon1.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1250; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_2_icon2.png" style="position: absolute; top: px; left: px; slidedirection : right; durationin : 1400; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_2_icon3.png" style="position: absolute; top: px; left: px; durationin : 1650; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/1_2_handphone.png" style="position: absolute; top: px; left: px; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+    </div>
+
+    <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/2_bg.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/2_handphone.png" style="position: absolute; top: px; left: px; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/2_icon.png" style="position: absolute; top: px; left: px; slidedirection : top; durationin : 1150; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/2_word.png" style="position: absolute; top: px; left: px; slidedirection : left; durationin : 1300; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+    </div>
+
+    <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/2_bg.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/2_icon.png" style="position: absolute; top: px; left: px; slidedirection : top; durationin : 1150; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/2_word.png" style="position: absolute; top: px; left: px; slidedirection : left; durationin : 1300; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/2_2_handphone.png" style="position: absolute; top: px; left: px; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+    </div>
+
+    <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_bg.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_handphone.png" style="position: absolute; top: px; left: px; slidedirection : top; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_ibeacon1.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_ibeacon2.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 2750; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_ibeacon31.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 3650; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_word.png" style="position: absolute; top: px; left: px; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_ibeacon.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+    </div>
+
+    <div class="ls-layer" style="slidedirection: right; slidedelay: 4000; durationin: 1500; durationout: 1500; easingin: easeInOutQuint; easingout: easeInOutQuint; delayin: 0; delayout: 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_bg.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_word.png" style="position: absolute; top: px; left: px; slidedirection : bottom; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_2_handphone.png" style="position: absolute; top: px; left: px; slidedirection : top; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_ibeacon4.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 1000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_ibeacon1.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_ibeacon2.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 2750; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+      <img class="ls-s-1" src="{{ site.assetsurl }}2016/01/3_ibeacon31.png" style="position: absolute; top: px; left: px; slidedirection : fade; durationin : 3650; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; delayin : 0; delayout : 0; showuntil : 0; ">
+    </div>
   </div>
 </div>
 
@@ -61,10 +113,54 @@ $(document).ready(function() {
   else
   {
     $("#layerslider_1").layerSlider({
-      
+      width : '1440px',
+      height : '650px',
+      responsive : true,
+      responsiveUnder : 0,
+      sublayerContainer : 0,
+      autoStart : true,
+      pauseOnHover : true,
+      firstLayer : 1,
+      animateFirstLayer : true,
+      randomSlideshow : false,
+      twoWaySlideshow : true,
+      loops : 0,
+      forceLoopNum : true,
+      autoPlayVideos : true,
+      autoPauseSlideshow : 'auto',
+      youtubePreview : 'maxresdefault.jpg',
+      keybNav : true,
+      touchNav : true,
+      skin : 'fullwidth',
+      skinsPath : '../../css/LayerSlider/skins/',
+      globalBGColor : 'transparent',
+      navPrevNext : true,
+      navStartStop : false,
+      navButtons : true,
+      hoverPrevNext : true,
+      hoverBottomNav : false,
+      showBarTimer : false,
+      showCircleTimer : true,
+      thumbnailNavigation : 'disabled',
+      tnWidth : 100,
+      tnHeight : 60,
+      tnContainerWidth : '60%',
+      tnActiveOpacity : 35,
+      tnInactiveOpacity : 100,
+      imgPreload : true,
+      yourLogo : false,
+      yourLogoStyle : 'left: 10px; top: 10px;',
+      yourLogoLink : false,
+      yourLogoTarget : '_self',
+      cbInit : function(element) { },
+      cbStart : function(data) { },
+      cbStop : function(data) { },
+      cbPause : function(data) { },
+      cbAnimStart : function(data) { },
+      cbAnimStop : function(data) { },
+      cbPrev : function(data) { },
+      cbNext : function(data) { }
     });
   }
 });
 </script>
-
-skinsPath : '../../css/LayerSlider/skins/',
