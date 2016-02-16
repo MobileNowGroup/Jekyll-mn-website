@@ -4,6 +4,8 @@ author: admin
 categories: News
 permalink: /introducing-Otto-PetCare-systems/
 socialShareText: "Introducing Otto PetCare Systems"
+projectTitle: "Otto PetCare"
+iosComeSoon: "true"
 ---
 Otto Petcare bring an innovative new wellbeing platform to market, that will be welcomed by pet lovers worldwide.
 

@@ -8,7 +8,7 @@ category: "lifestyle_sort"
 image: "2016/02/Otto-Thumbnail.jpg"
 link: "otto-petcare"
 socialShareText: "Otto PetCare"
-iosDownload: "https://itunes.apple.com/cn/app/kfc-wan-chu-wei-exo-m-edition/id945981194?l=en&amp;mt=8"
+iosComeSoon: "true"
 ---
 <div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">
