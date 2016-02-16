@@ -1,7 +1,7 @@
 ---
 title: Lane Crawford Wechat
 permalink: /work/lane-crawford/
-order: 47
+order: 48
 projectTitle: "Lane Crawford"
 support: "wechat"
 category: "retail_sort"
