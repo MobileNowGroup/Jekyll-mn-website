@@ -5,7 +5,7 @@ order: 46
 projectTitle: "Otto PetCare"
 support: "ios"
 category: "lifestyle_sort"
-image: "2015/01/KFCthumbnail-495x400.jpg"
+image: "2016/02/Otto-Thumbnail.jpg"
 link: "otto-petcare"
 socialShareText: "Otto PetCare"
 iosDownload: "https://itunes.apple.com/cn/app/kfc-wan-chu-wei-exo-m-edition/id945981194?l=en&amp;mt=8"
