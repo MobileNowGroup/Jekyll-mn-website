@@ -4,7 +4,7 @@ permalink: /work/versailles-wechat-now/
 order: 43
 projectTitle: "Versailles WeChat Now"
 support: "wechat"
-category: "media_sort travel_sort"
+category: "travel_sort"
 image: "2016/02/Versailles-Thumbnail.jpg"
 link: "versailles-wechat-now"
 socialShareText: "Versailles WeChat Now"
@@ -33,21 +33,23 @@ socialShareText: "Versailles WeChat Now"
 
 #### Mission
 
-Provide custom CMS with different features designed to improve content management quality as for use modules customized with quick and simple annotations to guide the user.
+With France the number #1 tourist destination and China contributing the highest number of outbound tourists; catering for Chinese visitors to France’s top destinations has become paramount.
+
+Palace of Versailles was acutely aware of this and so wanted to establish a helpful and content rich WeChat channel to allow Chinese tourists to better access information on Versailles.
 
 #### Concept
 
-A customizable CMS that allows Talents Travel to manage directly their multiple WeChat accounts either they are Service, Subscription or Enterprise to provide and update content to their user base.
+A customisable and simple to use CMS was created for Talents Travel, to enable them to effectively manage content on Palace of Versailles WeChat account.
 
-Many features such as Broadcast messages support their need to share this content with their followers.
-
-Store location can help provide many stores findable by followers sharing their location.
-
-In all, Talents Travel CMS provide further solutions to content management provider.
+This ranges from creating a media library and repository for articles, through to establishing logic for auto reply dialogue and finally being able to view data on users that have subscribed to Palace of Versailles WeChat account.
 
 #### Results
 
-The service has been already launched for the official account Chateau de Versailles.
+The CMS has been rolled out for Palace of Versailles, with additional top French destinations to be added soon.
+
+Follow Palace of Versailles by scanning the QR code:
+
+<img alt="Versailles QR code" src="{{ site.assetsurl }}2016/02/VersaillesQR.jpg" width="168" height="168">
 
 </div>
 
