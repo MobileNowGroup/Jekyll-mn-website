@@ -579,8 +579,8 @@ ul.page-links.show_mobile_menu {
       font-weight: 600; }
 
 .office-info .city {
-  margin-top: 30px;
-  margin-bottom: 34px; }
+  margin-top: 35px;
+  margin-bottom: 35px; }
   .office-info .city span {
     font-size: 34px;
     font-weight: 600;
@@ -606,11 +606,13 @@ ul.page-links.show_mobile_menu {
   line-height: 20px; }
 
 .btn-brief-wrapper {
-  margin-top: 20px;
-  margin-bottom: 40px; }
+  margin-top: 30px;
+  margin-bottom: 35px; }
   .btn-brief-wrapper .mn-button {
     line-height: initial;
-    font-size: 30px; }
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0; }
 
 /**
  * Wrapper
