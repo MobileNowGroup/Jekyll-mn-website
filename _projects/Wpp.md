@@ -1,7 +1,7 @@
 ---
 title: WPP - Our Campus
 permalink: /work/wpp-our-campus/
-order: 46
+order: 47
 projectTitle: "Our Campus"
 support: "universal"
 category: "b2b_sort"

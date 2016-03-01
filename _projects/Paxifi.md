@@ -1,7 +1,7 @@
 ---
 title: Paxifi
 permalink: /work/paxifi/
-order: 45
+order: 46
 projectTitle: "Paxifi"
 support: "universal"
 category: "retail_sort"
