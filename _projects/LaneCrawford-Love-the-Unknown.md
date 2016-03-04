@@ -42,7 +42,7 @@ All survey participants are incentivised to share their phone numbers, through a
 
 #### Results
 
-An overwhelming response, with the number of consumers taking part in the campaign exceeding target by xx%. [_Check 11,000 figure against target, then less sensitive if we announce this way_]
+An overwhelming response, with the number of consumers taking part in the campaign exceeding target by 20%. [_Check 11,000 figure against target, then less sensitive if we announce this way_]
 
 </div>
 

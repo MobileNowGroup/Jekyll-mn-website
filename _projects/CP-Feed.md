@@ -41,7 +41,7 @@ Keeping in touch with their customer base as well as allowing farmers to easily 
 
 With a customer base, by their nature, residing in rural areas of China, WeChat offered the ideal interface to communicate with farmers.
 
-Working with Mirum Shanghai and leveraging the WeChat Now platform, has allowed CP Feed to manage the publication of relevant articles, broadcast of news, as well as keeping their product portfolio up to date, including offering mCommerce option.
+Working with Mirum Shanghai and leveraging the _WeChat Now_ platform, has allowed CP Feed to manage the publication of relevant articles, broadcast of news, as well as keeping their product portfolio up to date, including offering mCommerce option.
 
 #### Results
 
