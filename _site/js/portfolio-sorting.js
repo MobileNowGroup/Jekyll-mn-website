@@ -9,11 +9,11 @@
         };
       },
       _customModeLayout: function($elems) {
-        var containerWidth, extraRange, instance, margin, props, ref;
+        var containerWidth, extraRange, instance, margin, props, _ref;
         instance = this;
         containerWidth = this.element.width();
         props = this.fitRows;
-        margin = (ref = this.element.is(".no_margin-container")) != null ? ref : {
+        margin = (_ref = this.element.is(".no_margin-container")) != null ? _ref : {
           0: (containerWidth / 100) * 6
         };
         extraRange = 2;

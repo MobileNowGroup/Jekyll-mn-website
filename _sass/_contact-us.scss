@@ -2,8 +2,8 @@
   @extend .solid_top_border;
 
   .city {
-    margin-top: $spacing-unit * 1.5;
-    margin-bottom: $spacing-unit * 1.7;
+    margin-top: $spacing-unit * 1.75;
+    margin-bottom: $spacing-unit * 1.75;
 
     span {
       font-size: 34px;
@@ -37,11 +37,13 @@
 }
 
 .btn-brief-wrapper {
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit * 2;
+  margin-top: $spacing-unit * 1.5;
+  margin-bottom: $spacing-unit * 1.75;
 
   .mn-button {
     line-height: initial;
     font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }

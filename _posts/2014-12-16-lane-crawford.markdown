@@ -19,6 +19,6 @@ The account has also been primed for full POS integration and ecommerce enableme
 
 Follow Lane Crawford by scanning the QR code.
 
-<img alt="LaneCrawfordQR" src="{{ site.assetsurl }}2015/02/LaneCrawfordQR.png" width="240" height="240">
+<img alt="LaneCrawfordQR" src="{{ site.assetsurl }}2015/02/LaneCrawfordQR.png" width="210" height="210">
 <!--more-->
 {% include news-share-download.html %}
