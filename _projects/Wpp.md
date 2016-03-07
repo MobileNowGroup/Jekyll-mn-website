@@ -8,7 +8,7 @@ category: "b2b_sort"
 image: "2015/12/WPP-Thumbnail.png"
 link: "wpp-our-campus"
 socialShareText: "WPP - Our Campus"
-iosDownload: "https://itunes.apple.com/app/apple-store/id1062505335?mt=8"
+iosDownload: "https://itunes.apple.com/cn/app/our-campus/id1062505335?l=en&mt=8"
 androidDownload: "http://jwtshanghai.com/shareapp.html"
 androidDownloadIcon: "2013/12/badge_android.png"
 ---
