@@ -15,7 +15,7 @@ A wide range of auto reply logic was also created, to allow users to interact on
 
 Follow Palace of Versailles by scanning the QR code:
 
-<img alt="Versailles QR code" src="{{ site.assetsurl }}2016/02/VersaillesQR.jpg" width="168" height="168">
+<img alt="Versailles QR code" src="{{ site.assetsurl }}2016/02/VersaillesQR.jpg" width="210" height="210">
 
 <!--more-->
 {% include news-share-download.html %}

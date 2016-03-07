@@ -29,7 +29,7 @@ socialShareText: "CP Feed WeChat"
 </div>
 
 <div class="wrapper content project-detail" markdown="1">
-  <h2 class="content-h2 with-bottom-line">CP Feed WeChat</h2>
+  <h2 class="content-h2 with-bottom-line">CP Feed WeChat Now</h2>
 
 #### Mission
 
@@ -46,6 +46,10 @@ Working with Mirum Shanghai and leveraging the _WeChat Now_ platform, has allowe
 #### Results
 
 CP Feed has launched their new WeChat offering to customers throughout China.
+
+Follow CP Feed by scanning the QR code:
+
+<img alt="CPFeed QR code" src="{{ site.assetsurl }}2016/03/CPFeedQR.png" width="168" height="168">
 
 </div>
 

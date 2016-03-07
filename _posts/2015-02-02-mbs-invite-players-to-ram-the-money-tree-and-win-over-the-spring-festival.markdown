@@ -15,6 +15,6 @@ Efficient collectors win red packets and a range of MBS offers, at the exclusive
 
 Scan the QR with your Wechat to start playing the game.
 
-<img alt="MBSqrcode" src="{{ site.assetsurl }}2015/02/MBSqrcode1.png" width="224" height="224">
+<img alt="MBSqrcode" src="{{ site.assetsurl }}2015/02/MBSqrcode1.png" width="210" height="210">
 <!--more-->
 {% include news-share-download.html %}

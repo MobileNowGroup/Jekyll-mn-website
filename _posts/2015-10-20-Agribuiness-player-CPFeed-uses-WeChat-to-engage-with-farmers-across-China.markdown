@@ -11,5 +11,9 @@ WeChat has become a key consumption channel, both for the traditional and younge
 
 Mobile Now's _WeChat Now_ platform has allowed CP Feed, to keep their customers informed with relevant farming articles and news, as well as showcasing the wide range of CP Feed products, with mCommerce enabled.
 
+Follow CP Feed by scanning the QR code:
+
+<img alt="CPFeed QR code" src="{{ site.assetsurl }}2016/03/CPFeedQR.png" width="210" height="210">
+
 <!--more-->
 {% include news-share-download.html %}
