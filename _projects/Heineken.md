@@ -8,8 +8,8 @@ category: "fb_sort"
 image: "2016/01/Heineken-Thumbnail.jpg"
 link: "heineken-green-room"
 socialShareText: "Heineken Green Room"
-iosDownload: "https://itunes.apple.com/us/app/heineken-green-room/id1015284949?ls=1&mt=8"
-androidDownload: "https://play.google.com/store/apps/details?id=com.mobilenow.hgr&hl=en"
+iosDownload: "https://itunes.apple.com/us/app/heineken-green-room/id1015284949?mt=8"
+androidDownload: "https://play.google.com/store/apps/details?id=com.mobilenow.hgr"
 androidDownloadIcon: "2013/12/badge_android.png"
 ---
 <div class="avia-layerslider solid_bottom_border">
