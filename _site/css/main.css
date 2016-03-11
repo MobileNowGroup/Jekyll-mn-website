@@ -97,11 +97,11 @@ a {
 */
 .contrast_color, .mn-button:hover, .mn-button.reverse {
   color: white;
-  background-color: #96358c;
-  border-color: #96358c; }
+  background-color: #97348c;
+  border-color: #97348c; }
 
 .contrast_color_2, .mn-button, .mn-button.reverse:hover {
-  color: #96358c;
+  color: #97348c;
   background-color: #ffffff;
   border: 1px solid #e1e1e1; }
 
@@ -1283,7 +1283,7 @@ ul.page-links.show_mobile_menu {
   background-color: #e9dbe7;
   margin: 4px 15px 4px 4px;
   padding: 5px 10px;
-  color: #96358c;
+  color: #97348c;
   position: relative; }
 
 #filesToUpload .outerbox span:first-child {
@@ -1307,7 +1307,7 @@ ul.page-links.show_mobile_menu {
   border-top: 1px solid #e1e1e1; }
 
 .bf-container input[type="submit"] {
-  background-color: #96358c;
+  background-color: #97348c;
   border: none;
   outline: none;
   border-radius: 2px;
