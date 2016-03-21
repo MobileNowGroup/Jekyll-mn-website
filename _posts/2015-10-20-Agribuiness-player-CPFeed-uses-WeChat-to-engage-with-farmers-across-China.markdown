@@ -1,9 +1,9 @@
 ---
-title:  "Agribuiness player CP Feed uses WeChat to engage with farmers across China"
+title:  "Agribusiness player CP Feed uses WeChat to engage with farmers across China"
 author: admin
 categories: News
-permalink: /Agribuiness-player-CPFeed-uses-WeChat-to-engage-with-farmers-across-China/
-socialShareText: "Agribuiness player CP Feed uses WeChat to engage with farmers across China"
+permalink: /Agribusiness-player-CPFeed-uses-WeChat-to-engage-with-farmers-across-China/
+socialShareText: "Agribusiness player CP Feed uses WeChat to engage with farmers across China"
 ---
 With a target of better engaging their customer base, CP Feed have taken advantage of the _WeChat Now_ platform, to drive engagement.
 
