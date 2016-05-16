@@ -1,7 +1,7 @@
 ---
 title: CP Feed WeChat
 permalink: /work/cp-feed-wechat/
-order: 46
+order: 47
 projectTitle: "CP Feed WeChat Now"
 support: "wechat"
 category: "b2b_sort"

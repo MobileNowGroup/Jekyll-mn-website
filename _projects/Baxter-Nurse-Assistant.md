@@ -1,13 +1,14 @@
 ---
 title: Baxter's Nurse Assistant
 permalink: /work/Baxter-s-Nurse-Assistant/
-order: 53
+order: 43
 projectTitle: "Baxter's Nurse Assistant"
 support: "android"
-category: "fb_sort games_sort"
-image: "2015/01/KFCthumbnail-495x400.jpg"
+category: "healthcare_sort"
+image: "2016/05/Baxter495x400.jpg"
 link: "Baxter-s-Nurse-Assistant"
 socialShareText: "Baxter's Nurse Assistant"
+androidComeSoon: "true"
 ---
 <div class="avia-layerslider solid_bottom_border">
   <div id="layerslider_1" class="ls-wp-container">

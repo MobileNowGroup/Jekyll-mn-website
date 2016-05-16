@@ -3,7 +3,9 @@ title:  "Baxter's Nurse Assistant (BNA) brings mobile innovation to patient care
 author: admin
 categories: News
 permalink: /BNA-brings-mobile-innovation-to-patient-care/
+projectTitle: "Baxter's Nurse Assistant"
 socialShareText: "Baxter's Nurse Assistant (BNA) brings mobile innovation to patient care"
+androidComeSoon: "true"
 ---
 Baxter saw mobile interfaces as a way to both; lighten nurses daily workload, as well as limiting the potential for human error in such mission critical operations, as the preparation of patient's prescriptions.
 
